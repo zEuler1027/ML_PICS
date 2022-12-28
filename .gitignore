@@ -1,0 +1,4 @@
+__pycache__
+catboost_info
+*_test.csv
+*_test.csv.gz
