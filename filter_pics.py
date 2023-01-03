@@ -24,10 +24,15 @@ df_data = pd.read_csv(
     index_col=KEY_IDENTITY,
 )
 
+# drop rows that have any NA value in non-PICS-condition columns
 column_set = set(df_data.columns)
 condition_column_set = set(PICS_CONDITIONS.keys())
 non_condition_columns = list(column_set - condition_column_set)
 df_data.dropna(subset=non_condition_columns, inplace=True)
+
+# remove entries with -1 (considered as NA)
+mask_neg1 = (df_data == -1.0).any(axis='columns')
+df_data = df_data[~mask_neg1]
 
 df_data['pics'] = False  # init
 df_data['decided'] = False  # init
