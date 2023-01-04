@@ -12,8 +12,9 @@ COMPACT_MODE = True
 TEST_MODE = False
 # TEST_MODE = True
 
-# DROP_NA = True
-DROP_NA = False
+# DROP_NA = 'all'
+DROP_NA = 'partial'
+# DROP_NA = False
 
 # COMPRESS_OUTPUT = False
 COMPRESS_OUTPUT = True
@@ -102,7 +103,7 @@ df_output = reduce(
     data_frames,
 )
 df_output.drop_duplicates(inplace=True)
-if DROP_NA:
+if DROP_NA != False:
     df_output.dropna(inplace=True)
 
 
@@ -146,7 +147,7 @@ for treatment_index in df_treatment.index:
             column_name = map_column_name(keyword)
             df_output.loc[identity, column_name] = True
 
-if DROP_NA:
+if DROP_NA != False:
     df_output.dropna(inplace=True)
 
 
@@ -188,7 +189,7 @@ for item_name, item_record in exam_item_dict.items():
         exam_item_record.__getitem__
     )
 
-if DROP_NA:
+if DROP_NA == 'all':
     df_output.dropna(inplace=True)
 
 
@@ -237,7 +238,7 @@ for var_name, var_record in lab_var_dict.items():
         )
     )
 
-if DROP_NA:
+if DROP_NA == 'all':
     df_output.dropna(inplace=True)
 
 
@@ -251,7 +252,7 @@ else:
 
 # output to file
 print('Writing to file...')
-if DROP_NA:
+if DROP_NA == 'all':
     df_output.dropna(inplace=True)
 if COMPRESS_OUTPUT:
     df_output.to_csv(
