@@ -1,5 +1,7 @@
 import numpy as np
 from os import path
+from math import floor
+import sys
 
 BASE_DIR = path.dirname(__file__)
 
@@ -29,25 +31,48 @@ TREATMENT_PATH = eicu_path('treatment.csv.gz')
 # configs
 
 TEST_ROWS = 5000
+MINUTES_PER_DAY = 24 * 60
 KEY_IDENTITY = 'patientunitstayid'
+KEY_OFFSET = 'offset'
+KEY_TREATMENT_OFFSET = 'treatmentoffset'
 KEY_TREATMENT_STRING = 'treatmentstring'
+KEY_EXAM_OFFSET = 'physicalexamoffset'
 KEY_EXAM_NAME = 'physicalexamvalue'
 KEY_EXAM_RESULT = 'physicalexamtext'
+KEY_LAB_OFFSET = 'labresultoffset'
 KEY_LAB_NAME = 'labname'
 KEY_LAB_RESULT = 'labresult'
 
-# REQUIRED_COLUMNS = [  # full model
-#     'admissionweight',  # weight
-#     'admissionheight',  # height
-#     # TBC
-# ]
+TREATMENT_USE_COLS = [
+    KEY_IDENTITY,
+    KEY_TREATMENT_OFFSET,
+    KEY_TREATMENT_STRING,
+]
+EXAM_USE_COLS = [
+    KEY_IDENTITY,
+    KEY_EXAM_OFFSET,
+    KEY_EXAM_NAME,
+    KEY_EXAM_RESULT,
+]
+LAB_USE_COLS = [
+    KEY_IDENTITY,
+    KEY_LAB_OFFSET,
+    KEY_LAB_NAME,
+    KEY_LAB_RESULT,
+]
 
-REQUIRED_COLUMNS = [  # compact model
+MIN_OFFSET = 1
+
+REQUIRED_COLUMNS = [
+    # -- compact model --
     'age',
     'meanbp',  # MAP(mean artery pressure)
     'wbc',  # WBC(white blood cell)
     'urine',  # Urine output
-    'actualhospitallos',  # length of stay in hospital (days)
+    # -- full model --
+    # 'admissionweight',  # weight
+    # 'admissionheight',  # height
+    # TBC
 ]
 
 REQUIRED_LAB_VARIABLES = [  # compact model
@@ -91,12 +116,16 @@ COLUMN_ALIASES = {
 
 # column_name -> indicator
 PICS_CONDITIONS = {
-    'actualhospitallos': lambda v: v >= 10,
+    'offset': lambda v: v >= 10,
     'crp': lambda v: v > 3.2,
     'lymph': lambda v: v < 20,
     'albumin': lambda v: v < 3,
     'prealbumin': lambda v: v < 10,
 }
+
+
+def offset2days(offset):
+    return floor(offset / MINUTES_PER_DAY)
 
 
 def map_column_name(column_name):
@@ -117,3 +146,29 @@ def mean(values):
         return np.nan
     else:
         return sum(values) / count
+
+
+class SimpleProgress:
+
+    def __init__(self, values):
+        self.values = values
+        self.n = len(values)
+        self.i = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        n = self.n
+        i = self.i
+        if i == n:
+            sys.stdout.write('\n')
+            raise StopIteration()
+        else:
+            pct = (i + 1) / n
+            if i:
+                sys.stdout.write('\r')
+            sys.stdout.write(f'{pct:.2%}')
+            sys.stdout.flush()
+            self.i += 1
+            return self.values[i]

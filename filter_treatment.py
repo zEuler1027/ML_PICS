@@ -9,23 +9,28 @@ if TEST_MODE:
     OUTPUT_PATH = relative_path('treatment_filtered_test.csv')
     df_treatment = pd.read_csv(
         TREATMENT_PATH,
-        usecols=[KEY_IDENTITY, KEY_TREATMENT_STRING],
+        usecols=TREATMENT_USE_COLS,
         nrows=TEST_ROWS,
     )
 else:
     OUTPUT_PATH = relative_path('treatment_filtered.csv.gz')
     df_treatment = pd.read_csv(
         TREATMENT_PATH,
-        usecols=[KEY_IDENTITY, KEY_TREATMENT_STRING],
+        usecols=TREATMENT_USE_COLS,
     )
 
+# filter treatment strings
 filter_mask = df_treatment[KEY_TREATMENT_STRING].map(
     lambda treatment_string: any(
         keyword in treatment_string
         for keyword in REQUIRED_TREATMENT_KEYWORDS
     )
 )
-df_filtered = df_treatment[filter_mask]
+df_filtered = df_treatment[filter_mask].copy()
+
+# transform offset
+df_filtered[KEY_TREATMENT_OFFSET] = \
+    df_filtered[KEY_TREATMENT_OFFSET].map(offset2days)
 
 if TEST_MODE:
     df_filtered.to_csv(
