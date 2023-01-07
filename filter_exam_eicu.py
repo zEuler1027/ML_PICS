@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import pandas as pd
 from common_eicu import *
 
@@ -6,14 +6,14 @@ TEST_MODE = False
 # TEST_MODE = True
 
 if TEST_MODE:
-    OUTPUT_PATH = relative_path('exam_filtered_test.csv')
+    OUTPUT_PATH = relative_path('exam_eicu_filtered_test.csv')
     df_exam = pd.read_csv(
         EXAM_PATH,
         usecols=EXAM_USE_COLS,
         nrows=TEST_ROWS,
     )
 else:
-    OUTPUT_PATH = relative_path('exam_filtered.csv.gz')
+    OUTPUT_PATH = relative_path('exam_eicu_filtered.csv.gz')
     df_exam = pd.read_csv(
         EXAM_PATH,
         usecols=EXAM_USE_COLS,
@@ -21,7 +21,7 @@ else:
 
 # filter exam items
 values = {
-    KEY_EXAM_NAME: REQUIRED_EXAM_ITEMS,
+    KEY_EXAM_NAME: EXAM_ITEMS_FULL,
 }
 filter_mask = df_exam.isin(values).any(axis='columns')
 df_filtered = df_exam[filter_mask].copy()

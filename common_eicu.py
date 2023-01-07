@@ -1,17 +1,6 @@
 import numpy as np
 from os import path
-from math import floor
-import sys
-
-BASE_DIR = path.dirname(__file__)
-
-
-def relative_path(p):
-    '''
-    Returns `path.join(BASE_DIR, p)`.
-    '''
-    return path.join(BASE_DIR, p)
-
+from common import *
 
 EICU_DIR = relative_path('../physionet.org/files/eicu-crd/2.0/')
 
@@ -27,13 +16,12 @@ CATALOGUE_PATH = relative_path('catalogue_eicu.json')
 LAB_PATH = eicu_path('lab.csv.gz')
 EXAM_PATH = eicu_path('physicalExam.csv.gz')
 TREATMENT_PATH = eicu_path('treatment.csv.gz')
+DIAGNOSIS_PATH = eicu_path('diagnosis.csv.gz')
 
-# configs
-
-TEST_ROWS = 5000
-MINUTES_PER_DAY = 24 * 60
+SEPSIS_KEYWORD = 'sepsis'
 KEY_IDENTITY = 'patientunitstayid'
 KEY_OFFSET = 'offset'
+KEY_DIAGNOSIS_STRING = 'diagnosisstring'
 KEY_TREATMENT_OFFSET = 'treatmentoffset'
 KEY_TREATMENT_STRING = 'treatmentstring'
 KEY_EXAM_OFFSET = 'physicalexamoffset'
@@ -43,6 +31,10 @@ KEY_LAB_OFFSET = 'labresultoffset'
 KEY_LAB_NAME = 'labname'
 KEY_LAB_RESULT = 'labresult'
 
+DIAGNOSIS_USE_COLS = [
+    KEY_IDENTITY,
+    KEY_DIAGNOSIS_STRING,
+]
 TREATMENT_USE_COLS = [
     KEY_IDENTITY,
     KEY_TREATMENT_OFFSET,
@@ -61,45 +53,61 @@ LAB_USE_COLS = [
     KEY_LAB_RESULT,
 ]
 
-MIN_OFFSET = 1
-
-REQUIRED_COLUMNS = [
-    # -- compact model --
+NON_TEMPORAL_COLUMNS_COMPACT = [
     'age',
-    'meanbp',  # MAP(mean artery pressure)
-    'wbc',  # WBC(white blood cell)
-    'urine',  # Urine output
-    # -- full model --
-    # 'admissionweight',  # weight
-    # 'admissionheight',  # height
-    # TBC
 ]
 
-REQUIRED_LAB_VARIABLES = [  # compact model
+NON_TEMPORAL_COLUMNS_FULL = [
+    *NON_TEMPORAL_COLUMNS_COMPACT,
+    'admissionweight',  # weight
+    'admissionheight',  # height
+    # TODO:
+]
+
+LAB_VARIABLES_COMPACT = [
     'creatinine',  # Creatinine (mg/dL)
     'platelets x 1000',  # Platelet (K/mcL)
     'PT - INR',  # INR (international normalized ratio; ratio)
     'PT',  # PT (prothrombin time; sec)
     'PTT',  # PTT (???; sec)
     'lactate',  # Lactate (mmol/L)
-    'RDW',  # RDW (red cell volume distribution width; )
+    'RDW',  # RDW (red cell volume distribution width)
     'total bilirubin',  # Total bilirubin (mg/dL)
     'bicarbonate',  # Bicarbonate (mmol/L)
     'CRP',  # C-Reactive Protein (mg/dL)
     '-lymphs',  # lymphocytes (%; normal: 20%~40%)
     'albumin',  # Albumin (g/dL)
     'prealbumin',  # pre-albumin (mg/dL)
+    'WBC x 1000',  # WBC (white blood cell; 1000 K/mcL)
 ]
 
-REQUIRED_EXAM_ITEMS = [
-    'HR Current',  # Heart rate
+LAB_VARIABLES_FULL = [
+    *LAB_VARIABLES_COMPACT,
+    # TODO:
 ]
 
-REQUIRED_TREATMENT_KEYWORDS = [  # in lower case
+EXAM_ITEMS_COMPACT = [
+    'BP (systolic) Current',  # systolic blood pressure (mmHg?)
+    'BP (diastolic) Current',  # diastolic blood pressure (mmHg?)
+    'HR Current',  # Heart rate (beats per minute?)
+    'Urine',  # Urine output (mL?)
+]
+
+EXAM_ITEMS_FULL = [
+    *EXAM_ITEMS_COMPACT,
+    # TODO:
+]
+
+TREATMENT_KEYWORDS_COMPACT = [  # in lower case
     'vasopressor',  # Vasopressor use
 ]
 
-# rename map (source->alias)
+TREATMENT_KEYWORDS_FULL = [
+    *TREATMENT_KEYWORDS_COMPACT,
+    # TODO:
+]
+
+# rename map (source -> alias)
 COLUMN_ALIASES = {
     'admissionweight': 'weight',
     'admissionheight': 'height',
@@ -112,7 +120,18 @@ COLUMN_ALIASES = {
     'HR Current': 'hr',
     'CRP': 'crp',
     '-lymphs': 'lymph',
+    'Urine': 'urine',
+    'WBC x 1000': 'wbc',
 }
+
+CATEGORICAL_COLUMNS_COMPACT = [
+    'vasopressor',
+]
+
+CATEGORICAL_COLUMNS_FULL = [
+    *CATEGORICAL_COLUMNS_COMPACT,
+    # TODO:
+]
 
 # column_name -> indicator
 PICS_CONDITIONS = {
@@ -123,9 +142,14 @@ PICS_CONDITIONS = {
     'prealbumin': lambda v: v < 10,
 }
 
+CONDITION_ONLY_COLUMNS_FULL = [
+    # None
+]
 
-def offset2days(offset):
-    return floor(offset / MINUTES_PER_DAY)
+CONDITION_ONLY_COLUMNS_COMPACT = [
+    *CONDITION_ONLY_COLUMNS_FULL,
+    # TODO:
+]
 
 
 def map_column_name(column_name):
@@ -138,37 +162,3 @@ def map_column_name(column_name):
         return COLUMN_ALIASES[column_name]
     else:
         return column_name
-
-
-def mean(values):
-    count = len(values)
-    if count == 0:
-        return np.nan
-    else:
-        return sum(values) / count
-
-
-class SimpleProgress:
-
-    def __init__(self, values):
-        self.values = values
-        self.n = len(values)
-        self.i = 0
-
-    def __iter__(self):
-        return self
-
-    def __next__(self):
-        n = self.n
-        i = self.i
-        if i == n:
-            sys.stdout.write('\n')
-            raise StopIteration()
-        else:
-            pct = (i + 1) / n
-            if i:
-                sys.stdout.write('\r')
-            sys.stdout.write(f'{pct:.2%}')
-            sys.stdout.flush()
-            self.i += 1
-            return self.values[i]

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 import pandas as pd
 from common_eicu import *
 
@@ -6,14 +6,14 @@ TEST_MODE = False
 # TEST_MODE = True
 
 if TEST_MODE:
-    OUTPUT_PATH = relative_path('lab_filtered_test.csv')
+    OUTPUT_PATH = relative_path('lab_eicu_filtered_test.csv')
     df_lab = pd.read_csv(
         LAB_PATH,
         usecols=LAB_USE_COLS,
         nrows=TEST_ROWS,
     )
 else:
-    OUTPUT_PATH = relative_path('lab_filtered.csv.gz')
+    OUTPUT_PATH = relative_path('lab_eicu_filtered.csv.gz')
     df_lab = pd.read_csv(
         LAB_PATH,
         usecols=LAB_USE_COLS,
@@ -21,7 +21,7 @@ else:
 
 # filter lab items
 values = {
-    KEY_LAB_NAME: REQUIRED_LAB_VARIABLES,
+    KEY_LAB_NAME: LAB_VARIABLES_FULL,
 }
 filter_mask = df_lab.isin(values).any(axis='columns')
 df_filtered = df_lab[filter_mask].copy()
