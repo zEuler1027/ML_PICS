@@ -3,7 +3,6 @@ from math import floor
 from os import path
 
 TEST_ROWS = 5000
-MINUTES_PER_DAY = 24 * 60
 MIN_OFFSET = 1
 KEY_FLAG = 'flag'
 FLAG_POSITIVE = 1
@@ -16,10 +15,6 @@ def relative_path(p):
     Returns `path.join(BASE_DIR, p)`.
     '''
     return path.join(BASE_DIR, p)
-
-
-def offset2days(offset):
-    return floor(offset / MINUTES_PER_DAY)
 
 
 def mean(values):

@@ -83,19 +83,19 @@ TREATMENT_KEYWORDS_FULL = [
     # TODO:
 ]
 
-APERIODIC_COMPACT = [
+APERIODIC_COLUMNS_COMPACT = [
     'noninvasivemean',  # Non-invasive mean blood pressure (mmHg?)
 ]
-APERIODIC_FULL = [
-    *APERIODIC_COMPACT,
+APERIODIC_COLUMNS_FULL = [
+    *APERIODIC_COLUMNS_COMPACT,
     # TODO:
 ]
 
-PERIODIC_COMPACT = [
+PERIODIC_COLUMNS_COMPACT = [
     'heartrate',  # Heart rate (beats per minute?)
 ]
-PERIODIC_FULL = [
-    *PERIODIC_COMPACT,
+PERIODIC_COLUMNS_FULL = [
+    *PERIODIC_COLUMNS_COMPACT,
     # TODO:
 ]
 
@@ -114,7 +114,7 @@ COLUMN_ALIASES = {
     '-lymphs': 'lymph',
     'Urine': 'urine',
     'WBC x 1000': 'wbc',
-    'systemicmean': 'bp',
+    'noninvasivemean': 'bp',
 }
 
 CATEGORICAL_COLUMNS_COMPACT = [
