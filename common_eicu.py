@@ -83,8 +83,15 @@ TREATMENT_KEYWORDS_FULL = [
     # TODO:
 ]
 
+APERIODIC_COMPACT = [
+    'noninvasivemean',  # Non-invasive mean blood pressure (mmHg?)
+]
+APERIODIC_FULL = [
+    *APERIODIC_COMPACT,
+    # TODO:
+]
+
 PERIODIC_COMPACT = [
-    'systemicmean',  # Mean invasive blood pressure (mmHg?)
     'heartrate',  # Heart rate (beats per minute?)
 ]
 PERIODIC_FULL = [
