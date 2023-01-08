@@ -12,11 +12,13 @@ def eicu_path(p):
     return path.join(EICU_DIR, p)
 
 
-CATALOGUE_PATH = relative_path('catalogue_eicu.json')
+CATALOGUE_PATH = relative_path('catalogue_eicu_single.json')
 LAB_PATH = eicu_path('lab.csv.gz')
 EXAM_PATH = eicu_path('physicalExam.csv.gz')
 TREATMENT_PATH = eicu_path('treatment.csv.gz')
 DIAGNOSIS_PATH = eicu_path('diagnosis.csv.gz')
+PERIODIC_PATH = eicu_path('vitalPeriodic.csv.gz')
+APERIODIC_PATH = eicu_path('vitalAperiodic.csv.gz')
 
 SEPSIS_KEYWORD = 'sepsis'
 KEY_IDENTITY = 'patientunitstayid'
@@ -30,33 +32,12 @@ KEY_EXAM_RESULT = 'physicalexamtext'
 KEY_LAB_OFFSET = 'labresultoffset'
 KEY_LAB_NAME = 'labname'
 KEY_LAB_RESULT = 'labresult'
-
-DIAGNOSIS_USE_COLS = [
-    KEY_IDENTITY,
-    KEY_DIAGNOSIS_STRING,
-]
-TREATMENT_USE_COLS = [
-    KEY_IDENTITY,
-    KEY_TREATMENT_OFFSET,
-    KEY_TREATMENT_STRING,
-]
-EXAM_USE_COLS = [
-    KEY_IDENTITY,
-    KEY_EXAM_OFFSET,
-    KEY_EXAM_NAME,
-    KEY_EXAM_RESULT,
-]
-LAB_USE_COLS = [
-    KEY_IDENTITY,
-    KEY_LAB_OFFSET,
-    KEY_LAB_NAME,
-    KEY_LAB_RESULT,
-]
+KEY_PERIODIC_OFFSET = 'observationoffset'
+KEY_APERIODIC_OFFSET = 'observationoffset'
 
 NON_TEMPORAL_COLUMNS_COMPACT = [
     'age',
 ]
-
 NON_TEMPORAL_COLUMNS_FULL = [
     *NON_TEMPORAL_COLUMNS_COMPACT,
     'admissionweight',  # weight
@@ -80,30 +61,34 @@ LAB_VARIABLES_COMPACT = [
     'prealbumin',  # pre-albumin (mg/dL)
     'WBC x 1000',  # WBC (white blood cell; 1000 K/mcL)
 ]
-
 LAB_VARIABLES_FULL = [
     *LAB_VARIABLES_COMPACT,
     # TODO:
 ]
 
 EXAM_ITEMS_COMPACT = [
-    'BP (systolic) Current',  # systolic blood pressure (mmHg?)
-    'BP (diastolic) Current',  # diastolic blood pressure (mmHg?)
-    'HR Current',  # Heart rate (beats per minute?)
     'Urine',  # Urine output (mL?)
 ]
-
 EXAM_ITEMS_FULL = [
     *EXAM_ITEMS_COMPACT,
     # TODO:
 ]
 
-TREATMENT_KEYWORDS_COMPACT = [  # in lower case
+# in lower case
+TREATMENT_KEYWORDS_COMPACT = [
     'vasopressor',  # Vasopressor use
 ]
-
 TREATMENT_KEYWORDS_FULL = [
     *TREATMENT_KEYWORDS_COMPACT,
+    # TODO:
+]
+
+PERIODIC_COMPACT = [
+    'systemicmean',  # Mean invasive blood pressure (mmHg?)
+    'heartrate',  # Heart rate (beats per minute?)
+]
+PERIODIC_FULL = [
+    *PERIODIC_COMPACT,
     # TODO:
 ]
 
@@ -117,11 +102,12 @@ COLUMN_ALIASES = {
     'PTT': 'ptt',
     'RDW': 'rdw',
     'total bilirubin': 'bilirubin',
-    'HR Current': 'hr',
+    'heartrate': 'hr',
     'CRP': 'crp',
     '-lymphs': 'lymph',
     'Urine': 'urine',
     'WBC x 1000': 'wbc',
+    'systemicmean': 'bp',
 }
 
 CATEGORICAL_COLUMNS_COMPACT = [
