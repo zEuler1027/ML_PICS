@@ -1,0 +1,57 @@
+scored
+Performed - Structured
+Current
+Intake Total
+Output Total
+Dialysis Net
+Total Net
+3
+1
+2
+HR Current
+HR Lowest
+HR Highest
+BP (systolic) Current
+BP (systolic) Lowest
+BP (systolic) Highest
+BP (diastolic) Current
+BP (diastolic) Lowest
+BP (diastolic) Highest
+Resp Current
+Resp Lowest
+Resp Highest
+O2 Sat% Current
+O2 Sat% Lowest
+O2 Sat% Highest
+FiO2%
+PEEP
+Admission
+Delta
+CVP
+6
+5
+4
+Vent Rate Current
+spontaneous
+sinus
+regular
+15
+irregular
+ventilated
+paced
+13
+narrow complex
+Not Performed
+14
+7
+10
+Systemic Vascular Resistance Index
+CO
+SVR
+estimated due to meds
+9
+unable to score due to meds
+12
+8
+11
+with PVCs

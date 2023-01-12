@@ -1,0 +1,106 @@
+fibrinogen
+PT - INR
+magnesium
+PT
+pH
+urinary creatinine
+MCH
+BUN
+urinary sodium
+HCO3
+lactate
+CPK
+PTT
+FiO2
+-lymphs
+Base Deficit
+BNP
+chloride
+uric acid
+troponin - I
+paO2
+-eos
+platelets x 1000
+anion gap
+LPM O2
+MCV
+paCO2
+RBC
+RDW
+MCHC
+alkaline phos.
+WBC x 1000
+creatinine
+calcium
+Hgb
+bicarbonate
+potassium
+-polys
+-monos
+CPK-MB
+total bilirubin
+-basos
+phosphate
+ALT (SGPT)
+Hct
+AST (SGOT)
+glucose
+total protein
+sodium
+albumin
+salicylate
+Acetaminophen
+ethanol
+WBC's in urine
+bedside glucose
+urinary specific gravity
+direct bilirubin
+Total CO2
+Base Excess
+folate
+ammonia
+TSH
+Vitamin B12
+-bands
+LDL
+total cholesterol
+HDL
+triglycerides
+Carboxyhemoglobin
+O2 Sat (%)
+Methemoglobin
+ionized calcium
+TIBC
+Vancomycin - trough
+Fe/TIBC Ratio
+Fe
+prealbumin
+lipase
+CRP
+ESR
+LDH
+Vancomycin - random
+Tacrolimus-FK506
+protein S
+Digoxin
+protein C
+CRP-hs
+Respiratory Rate
+free T4
+WBC's in cerebrospinal fluid
+protein - CSF
+glucose - CSF
+haptoglobin
+reticulocyte count
+Ferritin
+WBC's in synovial fluid
+urinary osmolality
+serum osmolality
+transferrin
+24 h urine urea nitrogen
+amylase
+myoglobin
+cortisol
+Phenytoin
+prolactin
+Phenobarbital

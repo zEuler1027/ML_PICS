@@ -1,0 +1,412 @@
+cardiovascular|hypertension|angiotensin II receptor blocker (ARB)|losartan
+cardiovascular|myocardial ischemia / infarction|antihyperlipidemic agent|HMG-CoA reductase inhibitor|atorvastatin
+infectious diseases|medications|therapeutic antibacterials|macrolide|azithromycin
+cardiovascular|non-operative procedures|diagnostic ultrasound of heart|transthoracic echocardiography
+infectious diseases|medications|therapeutic antibacterials|vancomycin
+cardiovascular|arrhythmias|cardioversion|electrical
+cardiovascular|consultations|Cardiology consultation
+pulmonary|ventilation and oxygenation|oxygen therapy (< 40%)|nasal cannula
+cardiovascular|vascular disorders|VTE prophylaxis|conventional heparin therapy
+surgery|cardiac therapies|inotropic agent|milrinone
+pulmonary|radiologic procedures / bronchoscopy|chest x-ray
+cardiovascular|arrhythmias|antiarrhythmics|class III antiarrhythmic|amiodarone
+endocrine|glucose metabolism|insulin
+cardiovascular|arrhythmias|anticoagulant administration|coumadin
+infectious diseases|medications|therapeutic antibacterials|penicillins|piperacillin/tazobactam
+gastrointestinal|medications|antiemetic|serotonin antagonist|ondansetron
+cardiovascular|vascular disorders|VTE prophylaxis|compression boots
+gastrointestinal|medications|stress ulcer prophylaxis|esomeprazole
+neurologic|pain / agitation / altered mentation|analgesics
+gastrointestinal|endoscopy/gastric instrumentation|nasogastric tube|with suction
+cardiovascular|vascular disorders|VTE prophylaxis|compression stockings
+renal|urinary catheters|foley catheter
+infectious diseases|cultures / immuno-assays|cultures|blood
+renal|electrolyte correction|electrolyte administration|phosphate
+renal|electrolyte correction|electrolyte administration|magnesium
+gastrointestinal|medications|stress ulcer treatment|famotidine
+gastrointestinal|radiology, diagnostic and procedures|CT scan|abdomen
+cardiovascular|intravenous fluid|normal saline administration|aggressive volume resuscitation (>250 mls/hr)
+infectious diseases|medications|therapeutic antibacterials
+gastrointestinal|radiology, diagnostic and procedures|CT scan|pelvis
+cardiovascular|intravenous fluid|normal saline administration|moderate volume resuscitation (150-250 mls/hr)
+renal|electrolyte correction|electrolyte administration|potassium
+cardiovascular|vascular disorders|VTE prophylaxis|conventional heparin therapy|subcutaneous
+infectious diseases|cultures / immuno-assays|cultures|urine
+renal|electrolyte correction|electrolyte administration|calcium
+cardiovascular|shock|inotropic agent|norepinephrine > 0.1 micrograms/kg/min
+surgery|infection|therapeutic antibacterials|second generation cephalosporin|cefoxitin
+pulmonary|medications|bronchodilator
+gastrointestinal|consultations|Surgery consultation
+cardiovascular|intravenous fluid|normal saline administration
+renal|intravenous fluid|Lactated Ringer's administration
+neurologic|pain / agitation / altered mentation|analgesics|neuraxial analgesics
+gastrointestinal|medications|stress ulcer prophylaxis|pantoprazole
+neurologic|pain / agitation / altered mentation|analgesics|narcotic analgesic
+pulmonary|medications|glucocorticoid administration
+pulmonary|ventilation and oxygenation|mechanical ventilation
+infectious diseases|cultures / immuno-assays|cultures
+neurologic|pain / agitation / altered mentation|sedative agent
+pulmonary|ventilation and oxygenation|CPAP/PEEP therapy
+renal|medications|intravenous diuretic|IV furosemide
+pulmonary|ventilation and oxygenation|ventilator weaning
+pulmonary|ventilation and oxygenation|oxygen therapy (40% to 60%)
+cardiovascular|vascular disorders|VTE prophylaxis|low molecular weight heparin|enoxaparin
+pulmonary|ventilation and oxygenation|oxygen therapy (> 60%)
+endocrine|thyroid disorder|thyroid hormone|levothyroxine (T4)
+neurologic|pain / agitation / altered mentation|sedative agent|propofol
+gastrointestinal|medications|stress ulcer prophylaxis|famotidine
+pulmonary|ventilation and oxygenation|oxygen therapy (40% to 60%)|face mask
+renal|electrolyte correction|treatment of hyperkalemia|insulin / glucose
+renal|medications|bicarbonate|sodium bicarbonate
+gastrointestinal|medications|stress ulcer prophylaxis
+cardiovascular|shock|vasopressors|norepinephrine <= 0.1 micrograms/kg/min
+endocrine|glucose metabolism|insulin|sliding scale administration
+infectious diseases|cultures / immuno-assays|legionnaire's urinary antigen
+neurologic|pain / agitation / altered mentation|analgesics|non-narcotic analgesic|acetaminophen
+infectious diseases|medications|therapeutic antibacterials|third generation cephalosporin
+infectious diseases|consultations|Infectious Disease consultation
+infectious diseases|medications|antiviral therapy|acyclovir
+infectious diseases|medications|prophylactic antibacterials
+pulmonary|medications|bronchodilator|leukotriene receptor antagonists|montelukast (Singulair)
+renal|intravenous fluid|normal saline administration
+infectious diseases|medications|therapeutic antibacterials|fourth generation cephalosporin
+infectious diseases|medications|antifungal therapy|fluconazole
+infectious diseases|medications|therapeutic antibacterials|fourth generation cephalosporin|cefepime
+transplant|medications|immunosuppressive therapy|tacrolimus
+cardiovascular|non-operative procedures|cardiac angiography|with stent placement|drug-eluting
+cardiovascular|myocardial ischemia / infarction|anticoagulant administration|thrombin inhibitor|bivalirudin
+cardiovascular|myocardial ischemia / infarction|antiplatelet agent|aspirin
+cardiovascular|myocardial ischemia / infarction|antiplatelet agent|aggregation inhibitors|clopidogrel
+cardiovascular|non-operative procedures|implantation of heart pacemaker|temporary
+cardiovascular|myocardial ischemia / infarction|beta blocker|metoprolol
+cardiovascular|myocardial ischemia / infarction|beta blocker
+pulmonary|radiologic procedures / bronchoscopy|CT scan|spiral CT
+cardiovascular|myocardial ischemia / infarction|nitroglycerin|sublingual
+cardiovascular|myocardial ischemia / infarction|nitroglycerin|intravenous
+cardiovascular|myocardial ischemia / infarction|anticoagulant administration|conventional heparin therapy|intravenous
+gastrointestinal|medications|stress ulcer prophylaxis|pantoprazole|oral
+neurologic|pain / agitation / altered mentation|analgesics|bolus parenteral analgesics
+cardiovascular|myocardial ischemia / infarction|glycoprotein IIB/IIIA inhibitor|eptifibatide
+cardiovascular|hypertension|ACE inhibitor|lisinopril
+pulmonary|ventilation and oxygenation|non-invasive ventilation
+cardiovascular|vascular disorders|anticoagulant administration|coumadin
+cardiovascular|intravenous fluid|colloid administration
+pulmonary|ventilation and oxygenation|oxygen therapy (< 40%)
+cardiovascular|arrhythmias|beta blocker|metoprolol
+neurologic|pain / agitation / altered mentation|analgesics|oral analgesics
+neurologic|pain / agitation / altered mentation|sedative agent|lorazepam
+cardiovascular|myocardial ischemia / infarction|nitroglycerin
+surgery|wounds / temperature|wound care
+neurologic|procedures / diagnostics|head CT scan
+endocrine|glucose metabolism|glucose|D50
+cardiovascular|myocardial ischemia / infarction|antihyperlipidemic agent|HMG-CoA reductase inhibitor|simvastatin
+gastrointestinal|medications|stress ulcer prophylaxis|omeprazole
+cardiovascular|intravenous fluid|colloid administration|albumin
+renal|intravenous fluid|colloid administration|albumin
+cardiovascular|intravenous fluid|hypotonic fluid administration|D5W
+cardiovascular|ventricular dysfunction|intravenous diuretic|IV furosemide
+infectious diseases|procedures|vascular catheter placement|central venous
+gastrointestinal|radiology, diagnostic and procedures|CT scan|without IV contrast
+gastrointestinal|medications|stress ulcer prophylaxis|pantoprazole|IV
+infectious diseases|procedures|vascular catheter placement|arterial
+general|quality measures|palliative care consultation
+pulmonary|vascular disorders|VTE prophylaxis|compression stockings
+cardiovascular|ventricular dysfunction|vasodilator
+gastrointestinal|endoscopy/gastric instrumentation|esophagogastroduodenoscopy
+surgery|consultations|Surgery consultation
+cardiovascular|shock|blood product administration|packed red blood cells
+gastrointestinal|medications|stress ulcer treatment|esomeprazole
+hematology|red blood cell disorders|blood product administration|packed red blood cells
+cardiovascular|myocardial ischemia / infarction|alpha/beta blocker|carvedilol
+cardiovascular|arrhythmias|antiarrhythmics|class IV antiarrhythmic|diltiazem
+neurologic|procedures / diagnostics|head CT scan|without contrast
+cardiovascular|arrhythmias|electrolyte administration|potassium
+cardiovascular|arrhythmias|electrolyte administration|intravenous
+infectious diseases|medications|therapeutic antibacterials|empiric antibacterial coverage
+infectious diseases|medications|therapeutic antibacterials|third generation cephalosporin|ceftriaxone
+pulmonary|vascular disorders|VTE prophylaxis|low molecular weight heparin|enoxaparin
+pulmonary|medications|glucocorticoid administration|parenteral
+cardiovascular|arrhythmias|adenosine
+pulmonary|radiologic procedures / bronchoscopy|endotracheal tube|insertion
+renal|dialysis|hemodialysis|for chronic renal failure
+pulmonary|radiologic procedures / bronchoscopy|endotracheal tube removal
+hematology|red blood cell disorders|blood product administration|packed red blood cells|transfusion of > 2 units prbc's
+cardiovascular|shock|blood product administration|fresh frozen plasma
+cardiovascular|arrhythmias|digoxin
+hematology|coagulation and platelets|vitamin K
+hematology|red blood cell disorders|blood product administration|fresh frozen plasma
+pulmonary|surgery / incision and drainage of thorax|insertion of thoracostomy tube
+cardiovascular|non-operative procedures|cardiac angiography|with stent placement
+cardiovascular|myocardial ischemia / infarction|angiotensin II receptor blocker (ARB)|losartan
+pulmonary|medications|antibacterials|penicillins|piperacillin/tazobactam
+infectious diseases|cultures / immuno-assays|cultures|sputum
+cardiovascular|hypertension|beta blocker|atenolol
+cardiovascular|ventricular dysfunction|oral diuretic|po furosemide
+cardiovascular|arrhythmias|anticoagulant administration|low molecular weight heparin|enoxaparin
+cardiovascular|non-operative procedures|external pacemaker
+pulmonary|medications|bronchodilator|inhaled
+pulmonary|medications|bronchodilator|beta-agonist|albuterol (Proventil, Ventolin)
+cardiovascular|non-operative procedures|cardioversion|electrical
+cardiovascular|non-operative procedures|implantation of heart pacemaker|permanent
+neurologic|therapy for controlling cerebral perfusion pressure|antihypertensive drug|nicardipine
+neurologic|therapy for controlling cerebral perfusion pressure|antihypertensive drug|labetalol
+cardiovascular|hypertension|angiotensin II receptor blocker (ARB)|irbesartan
+neurologic|seizure therapy|anticonvulsant|levetiracetam
+neurologic|pain / agitation / altered mentation|systemic glucocorticoid|dexamethasone
+cardiovascular|hypertension|clonidine
+pulmonary|ventilation and oxygenation|oxygen therapy (40% to 60%)|non-rebreather mask
+cardiovascular|intravenous fluid|normal saline administration|fluid bolus (250-1000mls)
+pulmonary|medications|analgesics
+cardiovascular|myocardial ischemia / infarction|antihyperlipidemic agent
+endocrine|glucose metabolism|insulin|subcutaneous dose of longer-acting insulin prepara
+cardiovascular|arrhythmias|electrolyte administration|magnesium
+cardiovascular|non-operative procedures|diagnostic ultrasound of heart
+cardiovascular|myocardial ischemia / infarction|antiplatelet agent|aggregation inhibitors
+pulmonary|vascular disorders|VTE prophylaxis|conventional heparin therapy
+cardiovascular|myocardial ischemia / infarction|ACE inhibitor|lisinopril
+cardiovascular|non-operative procedures|cardiac angiography
+pulmonary|radiologic procedures / bronchoscopy|CT scan|with contrast
+pulmonary|vascular disorders|anticoagulant administration|conventional heparin therapy
+renal|medications|oral diuretic|thiazides
+cardiovascular|myocardial ischemia / infarction|antihyperlipidemic agent|HMG-CoA reductase inhibitor
+infectious diseases|medications|therapeutic antibacterials|carbapenem|meropenem
+infectious diseases|medications|anti-protozoal therapy|for malaria|doxycycline
+infectious diseases|medications|antifungal therapy
+pulmonary|radiologic procedures / bronchoscopy|CT scan
+gastrointestinal|radiology, diagnostic and procedures|ultrasonography
+toxicology|drug overdose|normal saline solution|fluid bolus (250-1000 mls)
+gastrointestinal|medications|stress ulcer treatment|omeprazole
+cardiovascular|vascular disorders|VTE prophylaxis|coumadin
+pulmonary|medications|anticoagulant administration|conventional heparin therapy|intravenous
+cardiovascular|non-operative procedures|diagnostic ultrasound of heart|transesophageal echocardiography
+gastrointestinal|medications|stress ulcer prophylaxis|lansoprazole
+neurologic|procedures / diagnostics|MRI - head
+neurologic|ICH/ cerebral infarct|thrombolytics|alteplase
+neurologic|consultations|Neurology consultation
+burns/trauma|intravenous fluids|Lactated Ringer's administration
+neurologic|procedures / diagnostics|MRI - spine
+neurologic|procedures / diagnostics|neurosurgery
+burns/trauma|intravenous fluids|normal saline administration
+neurologic|pain / agitation / altered mentation|sedative agent|diazepam
+burns/trauma|trauma|splinting
+renal|intravenous fluid|hypertonic saline administration
+burns/trauma|trauma|CT scan
+infectious diseases|medications|therapeutic antibacterials|first generation cephalosporin|cefazolin
+neurologic|consultations|Neurosurgery consultation
+surgery|consultations|Plastic surgery consultation
+pulmonary|medications|bronchodilator|nebulized
+general|support services|occupational therapy consult
+general|support services|physical therapy consult
+cardiovascular|hypertension|vasodilating agent - IV|labetalol
+pulmonary|vascular disorders|anticoagulant administration|conventional heparin therapy|intravenous
+pulmonary|radiologic procedures / bronchoscopy|pulmonary ventilation perfusion study
+gastrointestinal|medications|stress ulcer treatment|pantoprazole
+cardiovascular|arrhythmias|anticoagulant administration|conventional heparin therapy|intravenous
+infectious diseases|cultures / immuno-assays|cultures|stool
+renal|electrolyte correction|electrolyte administration|intravenous
+cardiovascular|vascular disorders|anticoagulant administration|conventional heparin therapy
+cardiovascular|myocardial ischemia / infarction|thrombolytic therapy|alteplase
+neurologic|ICH/ cerebral infarct|antiplatelet agents|clopidogrel
+pulmonary|ventilation and oxygenation|mechanical ventilation|tidal volume < 6 ml/kg
+endocrine|glucose metabolism|insulin|continuous infusion
+cardiovascular|ventricular dysfunction|beta blocker|carvedilol
+pulmonary|vascular disorders|VTE prophylaxis|low molecular weight heparin
+cardiovascular|arrhythmias|antiarrhythmics|class I antiarrhythmic|flecainide
+cardiovascular|shock|vasopressors|norepinephrine > 0.1 micrograms/kg/min
+endocrine|glucose metabolism|glucose
+endocrine|glucose metabolism|oral hypoglycemic administration
+endocrine|electrolyte correction|administration of electrolytes|intravenous
+pulmonary|radiologic procedures / bronchoscopy|angiography
+general|support services|social work consult
+cardiovascular|vascular disorders|non-invasive testing for DVT
+gastrointestinal|medications|laxatives
+neurologic|ICH/ cerebral infarct|antihypertensives|labetalol
+cardiovascular|intravenous fluid|Lactated Ringer's administration
+pulmonary|ventilation and oxygenation|mechanical ventilation|pressure controlled
+cardiovascular|shock|vasopressors|dopamine >15 micrograms/kg/min
+cardiovascular|shock|vasopressors|epinephrine > 0.1 micrograms/kg/min
+neurologic|pain / agitation / altered mentation|analgesics|PCA
+gastrointestinal|nutrition|feeding tube
+neurologic|pain / agitation / altered mentation|sedative agent|midazolam
+cardiovascular|shock|vasopressors
+cardiovascular|vascular disorders|VTE prophylaxis
+cardiovascular|shock|inotropic agent
+pulmonary|ventilation and oxygenation|oxygen therapy (< 40%)|non-rebreather mask
+neurologic|therapy for controlling cerebral perfusion pressure|sedative agent|barbiturate
+pulmonary|radiologic procedures / bronchoscopy|endotracheal tube
+gastrointestinal|radiology, diagnostic and procedures|CT scan
+renal|intravenous fluid|hypotonic fluid administration|D5 half-normal saline
+neurologic|procedures / diagnostics|EEG
+pulmonary|medications|nicotine patch
+neurologic|seizure therapy|anticonvulsant|phenytoin
+gastrointestinal|nutrition|parenteral feeds|intralipid
+gastrointestinal|nutrition|parenteral feeds|TPN
+renal|dialysis|insertion of venous catheter for hemodialysis
+gastrointestinal|medications|hormonal therapy (for varices)|octreotide
+gastrointestinal|medications|lactulose
+gastrointestinal|endoscopy/gastric instrumentation|fiberoptic colonoscopy
+gastrointestinal|intravenous fluid administration|normal saline administration
+renal|procedures/radiology|cystoscopy
+gastrointestinal|consultations|Gastroenterology consultation
+gastrointestinal|intravenous fluid administration|blood product administration|fresh frozen plasma
+infectious diseases|medications|therapeutic antibacterials|quinolone|ciprofloxacin
+endocrine|glucose metabolism|insulin|subcutaneous dose of regular insulin
+gastrointestinal|intravenous fluid administration|blood product administration|packed red blood cells|transfusion of 1-2 units prbc's
+pulmonary|ventilation and oxygenation|oxygen therapy (> 60%)|face mask
+renal|urinary catheters|ureteral stenting|left
+gastrointestinal|intravenous fluid administration|blood product administration|packed red blood cells
+cardiovascular|hypertension|antihypertensive combination agent
+cardiovascular|hypertension|calcium channel blocker|verapamil
+cardiovascular|hypertension|ACE inhibitor|enalapril|IV
+infectious diseases|cultures / immuno-assays|C. difficile toxin
+pulmonary|medications|bronchodilator|beta-agonist
+cardiovascular|hypertension|vasodilating agent - IV|hydralazine
+neurologic|pain / agitation / altered mentation|analgesics|continuous parenteral analgesics
+general|quality measures|influenza vaccine
+neurologic|neuromyopathy therapy|systemic glucocorticoid|methylprednisolone
+neurologic|pain / agitation / altered mentation|systemic glucocorticoid|methylprednisolone
+neurologic|pain / agitation / altered mentation|sedative agent|dexmedetomidine
+endocrine|adrenal disorders|glucocorticoids|hydrocortisone
+cardiovascular|ventricular dysfunction|nitroglycerin|intravenous
+renal|medications|intravenous diuretic|IV diuretic - bolus infusion
+renal|medications|intravenous diuretic|chlorothiazide
+gastrointestinal|nutrition|feeding tube|nasogastric
+renal|dialysis|hemodialysis
+renal|consultations|Nephrology consultation
+cardiovascular|hypertension|vasodilating agent - IV|nicardipine
+pulmonary|surgery / incision and drainage of thorax|insertion of thoracostomy tube|for drainage of air
+infectious diseases|medications|antifungal therapy|voriconazole
+neurologic|neuromyopathy therapy|systemic glucocorticoid|dexamethasone
+neurologic|pain / agitation / altered mentation|SSRI administration|citalopram (Celexa)
+infectious diseases|medications|therapeutic antibacterials|quinolone|levofloxacin
+neurologic|procedures / diagnostics|neurosurgery|therapeutic craniotomy|for tumor
+neurologic|ICH/ cerebral infarct|antiplatelet agents|aspirin
+neurologic|therapy for controlling cerebral perfusion pressure|sedative agent|lorazepam
+hematology|red blood cell disorders|blood product administration|packed red blood cells|transfusion of 1-2 units prbc's
+infectious diseases|medications|therapeutic antibacterials|clindamycin
+renal|procedures/radiology|renal ultrasound
+cardiovascular|vascular disorders|anticoagulant administration|conventional heparin therapy|intravenous
+cardiovascular|intravenous fluid|hypotonic fluid administration|D5 half-normal saline
+oncology|medications|chemotherapy
+hematology|red blood cell disorders|blood product administration|platelet concentrate
+endocrine|electrolyte correction|administration of electrolytes|potassium
+oncology|medications|analgesics|narcotic analgesic
+gastrointestinal|intravenous fluid administration|blood product administration|packed red blood cells|transfusion of > 2 units prbc's
+oncology|medications|systemic glucocorticoid
+neurologic|pain / agitation / altered mentation|antidepressant|bupropion (Wellbutrin)
+gastrointestinal|radiology, diagnostic and procedures|bleeding scan
+endocrine|thyroid disorder|thyroid hormone
+endocrine|electrolyte correction|treatment of hyperkalemia|intravenous calcium
+endocrine|electrolyte correction|treatment of hyperkalemia|insulin / glucose
+gastrointestinal|endoscopy/gastric instrumentation|ERCP
+gastrointestinal|radiology, diagnostic and procedures|ultrasonography|abdomen
+renal|intravenous fluid|normal saline administration|aggressive volume resuscitation (>250 mls/hr)
+renal|intravenous fluid|normal saline administration|fluid bolus (250-1000mls)
+gastrointestinal|medications|immunoregulatory agents|azathioprine
+gastrointestinal|medications|anti-inflammatories|systemic glucocorticoid|parenteral
+gastrointestinal|intravenous fluid administration|normal saline administration|fluid bolus (250-1000mls)
+gastrointestinal|medications|antibiotics|penicillins
+burns/trauma|consultations|Orthopedics consultation
+renal|medications|bicarbonate
+pulmonary|surgery / incision and drainage of thorax|insertion of thoracostomy tube|for drainage of effusion
+pulmonary|surgery / incision and drainage of thorax|insertion of thoracostomy tube|for drainage of blood
+renal|medications|intravenous diuretic
+hematology|coagulation and platelets|anticoagulant administration|conventional heparin therapy|intravenous
+pulmonary|radiologic procedures / bronchoscopy|bronchoscopy
+cardiovascular|non-operative procedures|cardiac angiography|right heart
+cardiovascular|non-operative procedures|cardiac angiography|left heart
+pulmonary|vascular disorders|pulmonary ventilation perfusion study
+pulmonary|vascular disorders|anticoagulant administration
+pulmonary|vascular disorders|non-invasive testing for DVT
+pulmonary|vascular disorders|CT scan
+renal|medications|oral diuretic
+renal|urinary catheters|nephrostomy|left
+infectious diseases|medications|therapeutic antibacterials|third generation cephalosporin|ceftazidime
+pulmonary|medications|antibacterials|daptomycin
+renal|urinary catheters|suprapubic catheter
+renal|urinary catheters|nephrostomy|right
+surgery|infection|therapeutic antibacterials|first generation cephalosporin|cefazolin
+cardiovascular|hypertension|alpha/beta blocker|labetalol
+surgery|tubes and catheters|surgical drains
+endocrine|pituitary and temperature regulation|surgery
+endocrine|electrolyte correction|administration of electrolytes|magnesium
+endocrine|consultations|Endocrinology consultation
+pulmonary|medications|sedative|propofol
+neurologic|pain / agitation / altered mentation|sedative agent|haloperidol
+neurologic|seizure therapy|anticonvulsant|lorazepam
+toxicology|drug overdose|Psychiatry consultation
+toxicology|drug overdose|drug levels
+infectious diseases|procedures|CT scan|without contrast
+infectious diseases|procedures|CT scan|pelvis
+surgery|tubes and catheters|surgical drains|Jackson-Pratt
+infectious diseases|procedures|CT scan|abdomen
+infectious diseases|medications|therapeutic antibacterials|penicillins|penicllin G benzathine & procaine
+cardiovascular|vascular disorders|anticoagulant administration|low molecular weight heparin|enoxaparin
+infectious diseases|procedures|CT scan|chest
+surgery|exploratory surgery|exploratory laparotomy
+gastrointestinal|endoscopy/gastric instrumentation|nasogastric tube|insertion
+surgery|seizure therapy|anticonvulsant|gabapentin
+endocrine|intravenous fluid administration|normal saline administration
+neurologic|pain / agitation / altered mentation|SSRI administration|fluoxetine (Prozac)
+gastrointestinal|medications|antiemetic|metoclopramide
+cardiovascular|hypertension|ACE inhibitor|enalapril
+neurologic|procedures / diagnostics|neurosurgery|therapeutic craniotomy|for hematoma
+neurologic|ICH/ cerebral infarct|antihypertensives|nicardipine
+infectious diseases|medications|therapeutic antibacterials|linezolid
+pulmonary|medications|bronchodilator|ipratropium
+pulmonary|ventilation and oxygenation|CPAP/PEEP therapy|10-15 cm H2O
+pulmonary|ventilation and oxygenation|mechanical ventilation|assist controlled
+pulmonary|ventilation and oxygenation|mechanical ventilation|synchronized intermittent
+pulmonary|ventilation and oxygenation|ventilator weaning|slow
+pulmonary|ventilation and oxygenation|oxygen therapy (> 60%)|60-70%
+pulmonary|ventilation and oxygenation|oxygen therapy (> 60%)|reduce FIO2 as tolerated
+neurologic|pain / agitation / altered mentation|analgesics|non-narcotic analgesic|ibuprofen
+pulmonary|ventilation and oxygenation|CPAP/PEEP therapy|reduce PEEP as tolerated
+gastrointestinal|nutrition|parenteral feeds
+infectious diseases|medications|therapeutic antibacterials|metronidazole
+infectious diseases|medications|therapeutic antibacterials|third generation cephalosporin|cefixime
+pulmonary|vascular disorders|VTE prophylaxis
+pulmonary|medications|neuromuscular blocking agent
+neurologic|therapy for controlling cerebral perfusion pressure|sedative agent
+cardiovascular|ventricular dysfunction|vasodilator|hydralazine
+gastrointestinal|exploratory surgery|exploratory laparotomy
+pulmonary|ventilation and oxygenation|CPAP/PEEP therapy|5-10 cm H2O
+cardiovascular|arrhythmias|antiarrhythmics|class II antiarrhythmic|esmolol
+surgery|infection|therapeutic antibacterials|quinolone|levofloxacin
+surgery|infection|therapeutic antibacterials|metronidazole
+infectious diseases|cultures / immuno-assays|cultures|blood|peripheral
+pulmonary|ventilation and oxygenation|non-invasive ventilation|face mask
+infectious diseases|cultures / immuno-assays|legionnaire's serology
+gastrointestinal|intravenous fluid administration|normal saline administration|aggressive volume resuscitation (>250 mls/hr)
+neurologic|ICH/ cerebral infarct|angiogram
+surgery|analgesics /sedatives/ nmbs|analgesics|PCA
+surgery|wounds / temperature|wound care|dressing change
+surgery|consultations|Infectious Disease consultation
+infectious diseases|medications|prophylactic antibacterials|for surgery|vancomycin
+infectious diseases|medications|prophylactic antibacterials|for surgery|penicillins
+gastrointestinal|radiology, diagnostic and procedures|abscess drainage procedure|percutaneous
+cardiovascular|myocardial ischemia / infarction|analgesics
+cardiovascular|shock|blood product administration|packed red blood cells|transfusion of > 2 units prbc's
+neurologic|pain / agitation / altered mentation|analgesics|non-narcotic analgesic|ketorolac
+endocrine|adrenal disorders|glucocorticoids|dexamethasone
+pulmonary|consultations|Pulmonary/CCM consultation
+neurologic|pain / agitation / altered mentation|physical restraints
+cardiovascular|shock|administration of saline solution
+pulmonary|medications|sedative
+pulmonary|medications|antibacterials
+cardiovascular|vascular disorders|VTE prophylaxis|low molecular weight heparin
+cardiovascular|shock|vasopressors|vasopressin
+endocrine|intravenous fluid administration|normal saline administration|aggressive volume resuscitation (>250 mls/hr)
+pulmonary|ventilation and oxygenation|oxygen therapy (> 60%)|>90%
+toxicology|drug overdose|normal saline solution
+neurologic|seizure therapy|EEG monitoring
+pulmonary|surgery / incision and drainage of thorax|thoracentesis|diagnostic
+neurologic|seizure therapy|anticonvulsant|valproate
+pulmonary|surgery / incision and drainage of thorax|thoracentesis|therapeutic
+cardiovascular|intravenous fluid|Lactated Ringer's administration|aggressive volume resuscitation (>250 mls/hr)
+cardiovascular|arrhythmias|antiarrhythmics|atropine
+gastrointestinal|endoscopy/gastric instrumentation|ERCP|with stent
+endocrine|intravenous fluid administration|hypertonic saline administration
+neurologic|seizure therapy|anticonvulsant|gabapentin
+renal|medications|oral diuretic|po furosemide
+renal|electrolyte correction|electrolyte administration|oral

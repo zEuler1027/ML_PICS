@@ -40,6 +40,8 @@ NON_TEMPORAL_COLUMNS_COMPACT = [
 ]
 NON_TEMPORAL_COLUMNS_FULL = [
     *NON_TEMPORAL_COLUMNS_COMPACT,
+    'gender',
+    'ethnicity',
     'admissionweight',  # weight
     'admissionheight',  # height
     # TODO:
