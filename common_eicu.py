@@ -12,7 +12,7 @@ def eicu_path(p):
     return path.join(EICU_DIR, p)
 
 
-CATALOGUE_PATH = relative_path('catalogue_eicu_single.json')
+CATALOGUE_PATH = relative_path('./data/catalogue_eicu_single.json')
 LAB_PATH = eicu_path('lab.csv.gz')
 EXAM_PATH = eicu_path('physicalExam.csv.gz')
 TREATMENT_PATH = eicu_path('treatment.csv.gz')

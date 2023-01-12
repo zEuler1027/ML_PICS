@@ -4,8 +4,8 @@ import os
 import json
 from common_eicu import *
 
-OUTPUT_PATH_SINGLE = relative_path('catalogue_eicu_single.json')
-OUTPUT_PATH_MULTIPLE = relative_path('catalogue_eicu_multiple.json')
+OUTPUT_PATH_SINGLE = relative_path('./data/catalogue_eicu_single.json')
+OUTPUT_PATH_MULTIPLE = relative_path('./data/catalogue_eicu_multiple.json')
 
 # collect csv file paths
 input_file_paths = []
