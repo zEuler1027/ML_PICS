@@ -1,106 +1,106 @@
-fibrinogen
-PT - INR
-magnesium
-PT
-pH
-urinary creatinine
-MCH
-BUN
-urinary sodium
-HCO3
-lactate
-CPK
-PTT
-FiO2
--lymphs
-Base Deficit
-BNP
-chloride
-uric acid
-troponin - I
-paO2
--eos
-platelets x 1000
-anion gap
-LPM O2
-MCV
-paCO2
-RBC
-RDW
-MCHC
-alkaline phos.
-WBC x 1000
-creatinine
-calcium
-Hgb
-bicarbonate
-potassium
--polys
--monos
-CPK-MB
-total bilirubin
--basos
-phosphate
-ALT (SGPT)
-Hct
-AST (SGOT)
-glucose
-total protein
-sodium
-albumin
-salicylate
-Acetaminophen
-ethanol
-WBC's in urine
-bedside glucose
-urinary specific gravity
-direct bilirubin
-Total CO2
-Base Excess
-folate
-ammonia
-TSH
-Vitamin B12
--bands
-LDL
-total cholesterol
-HDL
-triglycerides
-Carboxyhemoglobin
-O2 Sat (%)
-Methemoglobin
-ionized calcium
-TIBC
-Vancomycin - trough
-Fe/TIBC Ratio
-Fe
-prealbumin
-lipase
-CRP
-ESR
-LDH
-Vancomycin - random
-Tacrolimus-FK506
-protein S
-Digoxin
-protein C
-CRP-hs
-Respiratory Rate
-free T4
-WBC's in cerebrospinal fluid
-protein - CSF
-glucose - CSF
-haptoglobin
-reticulocyte count
-Ferritin
-WBC's in synovial fluid
-urinary osmolality
-serum osmolality
-transferrin
-24 h urine urea nitrogen
-amylase
-myoglobin
-cortisol
-Phenytoin
-prolactin
-Phenobarbital
+fibrinogen (mg/dL)
+PT - INR (ratio)
+magnesium (mg/dL)
+PT (sec)
+pH (?)
+urinary creatinine (mg/dL)
+MCH (pg)
+BUN (mg/dL)
+urinary sodium (mmol/L)
+HCO3 (mmol/L)
+lactate (mmol/L)
+CPK (Units/L)
+PTT (sec)
+FiO2 (%)
+-lymphs (%)
+Base Deficit (mEq/L)
+BNP (pg/mL)
+chloride (mmol/L)
+uric acid (mg/dL)
+troponin - I (ng/mL)
+paO2 (mm Hg)
+-eos (%)
+platelets x 1000 (K/mcL)
+anion gap (?)
+LPM O2 (L/min)
+MCV (fL)
+paCO2 (mm Hg)
+RBC (M/mcL)
+RDW (%)
+MCHC (g/dL)
+alkaline phos. (Units/L)
+WBC x 1000 (K/mcL)
+creatinine (mg/dL)
+calcium (mg/dL)
+Hgb (g/dL)
+bicarbonate (mmol/L)
+potassium (mmol/L)
+-polys (%)
+-monos (%)
+CPK-MB (ng/mL)
+total bilirubin (mg/dL)
+-basos (%)
+phosphate (mg/dL)
+ALT (SGPT) (Units/L)
+Hct (%)
+AST (SGOT) (Units/L)
+glucose (mg/dL)
+total protein (g/dL)
+sodium (mmol/L)
+albumin (g/dL)
+salicylate (mg/dL)
+Acetaminophen (mcg/mL)
+ethanol (mg/dL)
+WBC's in urine (?)
+bedside glucose (mg/dL)
+urinary specific gravity (?)
+direct bilirubin (mg/dL)
+Total CO2 (?)
+Base Excess (mEq/L)
+folate (ng/mL)
+ammonia (mcg/dL)
+TSH (mcU/ml)
+Vitamin B12 (pg/mL)
+-bands (%)
+LDL (mg/dL)
+total cholesterol (mg/dL)
+HDL (mg/dL)
+triglycerides (mg/dL)
+Carboxyhemoglobin (%)
+O2 Sat (%) (%)
+Methemoglobin (%)
+ionized calcium (mg/dL)
+TIBC (mcg/dL)
+Vancomycin - trough (mcg/mL)
+Fe/TIBC Ratio (%)
+Fe (mcg/dL)
+prealbumin (mg/dL)
+lipase (Units/L)
+CRP (mg/dL)
+ESR (mm/hr)
+LDH (Units/L)
+Vancomycin - random (mcg/mL)
+Tacrolimus-FK506 (ng/mL)
+protein S (%)
+Digoxin (ng/mL)
+protein C (%)
+CRP-hs (mg/L)
+Respiratory Rate (/min)
+free T4 (ng/dL)
+WBC's in cerebrospinal fluid (?)
+protein - CSF (mg/dL)
+glucose - CSF (mg/dL)
+haptoglobin (mg/dL)
+reticulocyte count (%)
+Ferritin (ng/mL)
+WBC's in synovial fluid (?)
+urinary osmolality (mOsm/L)
+serum osmolality (mOsm/kg H2O)
+transferrin (mg/dL)
+24 h urine urea nitrogen (G/24HR)
+amylase (Units/L)
+myoglobin (ng/mL)
+cortisol (mcg/dL)
+Phenytoin (mcg/mL)
+prolactin (ng/mL)
+Phenobarbital (mcg/mL)

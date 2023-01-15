@@ -27,7 +27,7 @@ KEY_DIAGNOSIS_STRING = 'diagnosisstring'
 KEY_TREATMENT_OFFSET = 'treatmentoffset'
 KEY_TREATMENT_STRING = 'treatmentstring'
 KEY_EXAM_OFFSET = 'physicalexamoffset'
-KEY_EXAM_NAME = 'physicalexamvalue'
+KEY_EXAM_NAME = 'physicalexampath'
 KEY_EXAM_RESULT = 'physicalexamtext'
 KEY_LAB_OFFSET = 'labresultoffset'
 KEY_LAB_NAME = 'labname'
@@ -35,19 +35,39 @@ KEY_LAB_RESULT = 'labresult'
 KEY_PERIODIC_OFFSET = 'observationoffset'
 KEY_APERIODIC_OFFSET = 'observationoffset'
 
+# TODO: find the following variables
+# APACHE-IV (ICU admission)
+# Plateau pressure (Daily, if ventilated)
+# Tidal volume (Daily, if ventilated)
+# RSBI (Daily, if ventilated)
+#     RSBI = respiration_rate / tidal_volume
+# Hemoglobin (Daily)
+# Respiratory SOFA (Daily)
+# Liver SOFA (Daily)
+# Renal SOFA (Daily)
+# Cardiovascular SOFA (Daily)
+# RBC Transfusion (Sum of 24 hours)
+# FFP Transfusion (Sum of 24 hours)
+# PLT Transfusion (Sum of 24 hours)
+# Heparin days (Before assessment)
+# MV durations (Before assessment)
+
 NON_TEMPORAL_COLUMNS_COMPACT = [
-    'age',
+    # TODO:
 ]
 NON_TEMPORAL_COLUMNS_FULL = [
     *NON_TEMPORAL_COLUMNS_COMPACT,
+    'age',
     'gender',
     'ethnicity',
-    'admissionweight',  # weight
     'admissionheight',  # height
-    # TODO:
 ]
 
 LAB_VARIABLES_COMPACT = [
+    # TODO:
+]
+LAB_VARIABLES_FULL = [
+    *LAB_VARIABLES_COMPACT,
     'creatinine',  # Creatinine (mg/dL)
     'platelets x 1000',  # Platelet (K/mcL)
     'PT - INR',  # INR (international normalized ratio; ratio)
@@ -56,82 +76,127 @@ LAB_VARIABLES_COMPACT = [
     'lactate',  # Lactate (mmol/L)
     'RDW',  # RDW (red cell volume distribution width)
     'total bilirubin',  # Total bilirubin (mg/dL)
+    'direct bilirubin',  # Direct bilirubin (mg/dL)
     'bicarbonate',  # Bicarbonate (mmol/L)
     'CRP',  # C-Reactive Protein (mg/dL)
     '-lymphs',  # lymphocytes (%; normal: 20%~40%)
     'albumin',  # Albumin (g/dL)
     'prealbumin',  # pre-albumin (mg/dL)
     'WBC x 1000',  # WBC (white blood cell; 1000 K/mcL)
-]
-LAB_VARIABLES_FULL = [
-    *LAB_VARIABLES_COMPACT,
-    # TODO:
+    'total protein',  # Total protein (g/dL)
+    'anion gap',  # Anion gap (mmol/L?)
+    'BUN',  # BUN (mg/dL)
+    'fibrinogen',  # Fibrinogen (mg/dL)
+    'MCH',  # MCH (pg)
+    'MCHC',  # MCHC (g/dL)
+    'MCV',  # MCV (fL)
+    'ALT (SGPT)',  # ALT (SGPT) (Units/L)
+    'AST (SGOT)',  # AST (SGOT) (Units/L)
+    'RBC',  # RBC (M/mcL)
+    'pH',  # pH value
+    'paO2',  # paO2 (mm Hg)
+    'paCO2',  # paCO2 (mm Hg)
+    'FiO2',  # FiO2 (%)
+    'Total CO2',  # Total CO2
+    'chloride',  # chloride (mmol/L)
+    'calcium',  # calcium (mg/dL)
+    'potassium',  # potassium (mmol/L)
+    'sodium',  # sodium (mmol/L)
+    'glucose',  # glucose (mg/dL)
+    'Base Excess',  # BE (Base Excess; mEq/L)
+    'Hct',  # Hematocrit HCT (%)
 ]
 
-EXAM_ITEMS_COMPACT = [
-    'Urine',  # Urine output (mL?)
-]
-EXAM_ITEMS_FULL = [
-    *EXAM_ITEMS_COMPACT,
+# path -> alias
+EXAM_ITEM_MAP_COMPACT = {
     # TODO:
-]
+}
+EXAM_ITEM_MAP_FULL = {
+    **EXAM_ITEM_MAP_COMPACT,
+    # Weight (kg)
+    'notes/Progress Notes/Physical Exam/Physical Exam'
+    '/Constitutional/Weight and I&O/Weight (kg)/Current': 'weight',
+    # Urine output (mL)
+    'notes/Progress Notes/Physical Exam/Physical Exam'
+    '/Constitutional/Weight and I&O/I&&O (ml)/Urine': 'urine',
+    # TODO: extract score from path
+    # GCS (Daily)
+    # 'notes/Progress Notes/Physical Exam/Physical Exam'
+    # '/Neurologic/GCS/{score}': 'GCS',
+    # PEEP (Daily, if ventilated)
+    'notes/Progress Notes/Physical Exam/Physical Exam'
+    '/Constitutional/Vital Sign and Physiological Data/PEEP/PEEP': 'PEEP',
+}
+
+EXAM_ITEMS_COMPACT = list(EXAM_ITEM_MAP_COMPACT.keys())
+EXAM_ITEMS_FULL = list(EXAM_ITEM_MAP_FULL.keys())
 
 # in lower case
 TREATMENT_KEYWORDS_COMPACT = [
-    'vasopressor',  # Vasopressor use
+    # TODO:
 ]
 TREATMENT_KEYWORDS_FULL = [
     *TREATMENT_KEYWORDS_COMPACT,
-    # TODO:
+    'vasopressor',  # Vasopressor use
+    'heparin',  # Heparin use
 ]
 
 APERIODIC_COLUMNS_COMPACT = [
-    'noninvasivemean',  # Non-invasive mean blood pressure (mmHg?)
+    # TODO:
 ]
 APERIODIC_COLUMNS_FULL = [
     *APERIODIC_COLUMNS_COMPACT,
-    # TODO:
+    'noninvasivemean',  # Non-invasive mean blood pressure (mmHg?)
 ]
 
 PERIODIC_COLUMNS_COMPACT = [
-    'heartrate',  # Heart rate (beats per minute?)
+    # TODO:
 ]
 PERIODIC_COLUMNS_FULL = [
     *PERIODIC_COLUMNS_COMPACT,
-    # TODO:
+    'heartrate',  # Heart rate (per minute?)
+    'respiration',  # Respiratory rate (per minute?)
+    'sao2',  # SpO2 (https://eicu-crd.mit.edu/eicutables/vitalperiodic/)
+    'temperature',  # Temperature (in celsius)
 ]
 
 # rename map (source -> alias)
 COLUMN_ALIASES = {
-    'admissionweight': 'weight',
+    **EXAM_ITEM_MAP_FULL,
     'admissionheight': 'height',
     'platelets x 1000': 'platelet',
-    'PT - INR': 'inr',
-    'PT': 'pt',
-    'PTT': 'ptt',
-    'RDW': 'rdw',
-    'total bilirubin': 'bilirubin',
-    'heartrate': 'hr',
-    'CRP': 'crp',
+    'PT - INR': 'INR',
     '-lymphs': 'lymph',
-    'Urine': 'urine',
-    'WBC x 1000': 'wbc',
-    'noninvasivemean': 'bp',
+    'WBC x 1000': 'WBC',
+    'noninvasivemean': 'MAP',
+    'heartrate': 'heart rate',
+    'respiration': 'respiration rate',
+    'sao2': 'SpO2',
 }
 
 CATEGORICAL_COLUMNS_COMPACT = [
-    'vasopressor',
+    # TODO:
 ]
-
 CATEGORICAL_COLUMNS_FULL = [
     *CATEGORICAL_COLUMNS_COMPACT,
+    'gender',
+    'ethnicity',
+    'vasopressor',
+    'heparin',
+]
+
+CUMULATIVE_COLUMNS_COMPACT = [
     # TODO:
+]
+CUMULATIVE_COLUMNS_FULL = [
+    *CUMULATIVE_COLUMNS_COMPACT,
+    'urine',
 ]
 
 # column_name -> indicator
 PICS_CONDITIONS = {
     'offset': lambda v: v >= 10,
-    'crp': lambda v: v > 3.2,
+    'CRP': lambda v: v > 3.2,
     'lymph': lambda v: v < 20,
     'albumin': lambda v: v < 3,
     'prealbumin': lambda v: v < 10,
@@ -140,7 +205,6 @@ PICS_CONDITIONS = {
 CONDITION_ONLY_COLUMNS_FULL = [
     # None
 ]
-
 CONDITION_ONLY_COLUMNS_COMPACT = [
     *CONDITION_ONLY_COLUMNS_FULL,
     # TODO:

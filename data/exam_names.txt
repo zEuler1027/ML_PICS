@@ -1,57 +1,462 @@
-scored
-Performed - Structured
-Current
-Intake Total
-Output Total
-Dialysis Net
-Total Net
-3
-1
-2
-HR Current
-HR Lowest
-HR Highest
-BP (systolic) Current
-BP (systolic) Lowest
-BP (systolic) Highest
-BP (diastolic) Current
-BP (diastolic) Lowest
-BP (diastolic) Highest
-Resp Current
-Resp Lowest
-Resp Highest
-O2 Sat% Current
-O2 Sat% Lowest
-O2 Sat% Highest
-FiO2%
-PEEP
-Admission
-Delta
-CVP
-6
-5
-4
-Vent Rate Current
-spontaneous
-sinus
-regular
-15
-irregular
-ventilated
-paced
-13
-narrow complex
-Not Performed
-14
-7
-10
-Systemic Vascular Resistance Index
-CO
-SVR
-estimated due to meds
-9
-unable to score due to meds
-12
-8
-11
-with PVCs
+notes/Progress Notes/Physical Exam/Physical Exam Obtain Options/Not Performed :: Not Performed
+notes/Progress Notes/Physical Exam/Physical Exam Obtain Options/Performed - Structured :: Performed - Structured
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Click/audible click :: audible click
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Click/no click :: no click
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S1/S1 abnormal :: S1 abnormal
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S1/S1 normal :: S1 normal
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S1/S1 split :: S1 split
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S2/S2 abnormal :: S2 abnormal
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S2/S2 normal :: S2 normal
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S2/S2 split :: S2 split
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S3/S3 absent :: S3 absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S3/S3 present :: S3 present
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S4/S4 absent :: S4 absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Heart Sounds/S4/S4 present :: S4 present
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Character/crescendo/decrescendo :: crescendo/decrescendo
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Character/decrescendo :: decrescendo
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Character/holosystolic :: holosystolic
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Character/present :: present
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Grade/I :: I
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Grade/II :: II
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Grade/III :: III
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Grade/IV :: IV
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Grade/V :: V
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Grade/VI :: VI
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Location/LLSB :: LLSB
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Location/apex :: apex
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Location/base :: base
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Type/diastolic murmur :: diastolic murmur
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/One/Type/systolic murmur :: systolic murmur
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Three/Character/holosystolic :: holosystolic
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Three/Character/present :: present
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Three/Grade/II :: II
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Three/Grade/IV :: IV
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Three/Location/apex :: apex
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Three/Type/systolic murmur :: systolic murmur
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Character/crescendo/decrescendo :: crescendo/decrescendo
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Character/decrescendo :: decrescendo
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Character/holosystolic :: holosystolic
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Character/present :: present
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Grade/I :: I
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Grade/II :: II
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Grade/III :: III
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Grade/IV :: IV
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Location/LLSB :: LLSB
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Location/apex :: apex
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Location/base :: base
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Type/diastolic murmur :: diastolic murmur
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/Two/Type/systolic murmur :: systolic murmur
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Murmurs/no murmurs/no murmurs :: no murmurs
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Pericardial rub/LLSB :: LLSB
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Pericardial rub/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Pericardial rub/apex :: apex
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Pericardial rub/base :: base
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Auscultation/Pericardial rub/entire precordium :: entire precordium
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Palpation/PMI/diffuse :: diffuse
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Palpation/PMI/displaced laterally :: displaced laterally
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Palpation/PMI/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Palpation/PMI/not palpable :: not palpable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Brachial/L/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Brachial/L/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Brachial/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Brachial/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Brachial/R/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Brachial/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Carotid/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Carotid/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Carotid/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Dorsalis pedis/L/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Dorsalis pedis/L/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Dorsalis pedis/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Dorsalis pedis/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Dorsalis pedis/R/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Dorsalis pedis/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Femoral/L/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Femoral/L/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Femoral/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Femoral/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Femoral/R/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Femoral/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Normal/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Popliteal/L/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Popliteal/L/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Popliteal/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Popliteal/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Popliteal/R/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Popliteal/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Post. Tibial/L/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Post. Tibial/L/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Post. Tibial/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Post. Tibial/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Post. Tibial/R/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Post. Tibial/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Radial/L/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Radial/L/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Radial/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Radial/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Radial/R/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Radial/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Ulnar/L/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Ulnar/L/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Ulnar/L/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Ulnar/R/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Ulnar/R/dopplerable :: dopplerable
+notes/Progress Notes/Physical Exam/Physical Exam/Cardiovascular/Pulses/Ulnar/R/reduced :: reduced
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Drains and Tubes/chest tube(s) - L :: chest tube(s) - L
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Drains and Tubes/chest tube(s) - R :: chest tube(s) - R
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Drains and Tubes/mediastinal tube(s) :: mediastinal tube(s)
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Drains and Tubes/pacing wires :: pacing wires
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Drains and Tubes/surgical drain(s) :: surgical drain(s)
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Spine/kyphotic :: kyphotic
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Spine/scoliotic :: scoliotic
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Spine/tender to percussion :: tender to percussion
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Wound/breaking down :: breaking down
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Wound/margins clean :: margins clean
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Wound/margins erythematous :: margins erythematous
+notes/Progress Notes/Physical Exam/Physical Exam/Chest and Back/Wound/purulent discharge :: purulent discharge
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Acuity/in acute distress :: in acute distress
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Acuity/not in acute distress :: not in acute distress
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Health Status/critically ill-appearing :: critically ill-appearing
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Health Status/healthy appearing :: healthy appearing
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Health Status/ill-appearing :: ill-appearing
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Nutritional Status/cachectic :: cachectic
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Nutritional Status/obese :: obese
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Appearance/Nutritional Status/well developed :: well developed
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Hemodynamic Data/CO/CO :: CO
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Hemodynamic Data/CVP/CVP :: CVP
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Hemodynamic Data/PAOP/PAOP :: PAOP
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Hemodynamic Data/SVR/SVR :: SVR
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Hemodynamic Data/Systemic Vascular Resistance Index/Systemic Vascular Resistance Index :: Systemic Vascular Resistance Index
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/BP (diastolic)/BP (diastolic) Current :: BP (diastolic) Current
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/BP (diastolic)/BP (diastolic) Highest :: BP (diastolic) Highest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/BP (diastolic)/BP (diastolic) Lowest :: BP (diastolic) Lowest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/BP (systolic)/BP (systolic) Current :: BP (systolic) Current
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/BP (systolic)/BP (systolic) Highest :: BP (systolic) Highest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/BP (systolic)/BP (systolic) Lowest :: BP (systolic) Lowest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/FiO2%/FiO2% :: FiO2%
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/dysrhythmia/irregular :: irregular
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/dysrhythmia/narrow complex :: narrow complex
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/dysrhythmia/regular :: regular
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/dysrhythmia/wide complex :: wide complex
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/paced :: paced
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/sinus :: sinus
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/with PACs :: with PACs
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR Rhythm/with PVCs :: with PVCs
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR/HR Current :: HR Current
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR/HR Highest :: HR Highest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/HR/HR Lowest :: HR Lowest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/O2 Sat%/O2 Sat% Current :: O2 Sat% Current
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/O2 Sat%/O2 Sat% Highest :: O2 Sat% Highest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/O2 Sat%/O2 Sat% Lowest :: O2 Sat% Lowest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/PEEP/PEEP :: PEEP
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Description/audible wheezing :: audible wheezing
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Description/cheyne-stokes :: cheyne-stokes
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Description/labored :: labored
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Description/paradoxical breathing :: paradoxical breathing
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Description/stridorous :: stridorous
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Description/with retractions :: with retractions
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Mode/spontaneous :: spontaneous
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Mode/ventilated :: ventilated
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Rate/Resp Current :: Resp Current
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Rate/Resp Highest :: Resp Highest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Resp Rate/Resp Lowest :: Resp Lowest
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Vital Sign and Physiological Data/Vent Rate/Vent Rate Current :: Vent Rate Current
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/Blood Loss :: Blood Loss
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/Dialysis Net :: Dialysis Net
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/FFP :: FFP
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/Intake Total :: Intake Total
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/Output Total :: Output Total
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/Platelets :: Platelets
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/Total Net :: Total Net
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/Urine :: Urine
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/I&&O (ml)/pRBC's :: pRBC's
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/Weight (kg)/Admission :: Admission
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/Weight (kg)/Current :: Current
+notes/Progress Notes/Physical Exam/Physical Exam/Constitutional/Weight and I&O/Weight (kg)/Delta :: Delta
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Location/lower extremity bilateral :: lower extremity bilateral
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Location/lower extremity unilateral :: lower extremity unilateral
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Location/upper extremity bilateral :: upper extremity bilateral
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Location/upper extremity unilateral :: upper extremity unilateral
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Severity/1+ :: 1+
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Severity/2+ :: 2+
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Severity/3+ :: 3+
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/Severity/4+ :: 4+
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/anasarca :: anasarca
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/bilateral LE edema :: bilateral LE edema
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/localized swelling :: localized swelling
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Edema/no edema :: no edema
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Hardware/cast :: cast
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Hardware/external fixation device :: external fixation device
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Hardware/none :: none
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Hardware/traction :: traction
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Joints/normal/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Perfusion/adequate :: adequate
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Perfusion/extremities cold/dusky :: extremities cold/dusky
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Perfusion/extremities cool :: extremities cool
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Perfusion/extremities flushed :: extremities flushed
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Wound/breaking down :: breaking down
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Wound/margins clean :: margins clean
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Wound/margins erythematous :: margins erythematous
+notes/Progress Notes/Physical Exam/Physical Exam/Extremities/Wound/purulent discharge :: purulent discharge
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Bowel Sounds/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Bowel Sounds/decreased :: decreased
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Bowel Sounds/high pitched :: high pitched
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Bowel Sounds/increased :: increased
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Bowel Sounds/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Drains/Tubes/Fistulas/NG tube :: NG tube
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Drains/Tubes/Fistulas/biliary tube(s) :: biliary tube(s)
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Drains/Tubes/Fistulas/enterostomy tube(s) :: enterostomy tube(s)
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Drains/Tubes/Fistulas/fistula :: fistula
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Drains/Tubes/Fistulas/gastrostomy :: gastrostomy
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Drains/Tubes/Fistulas/jejunostomy :: jejunostomy
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Drains/Tubes/Fistulas/surgical drains :: surgical drains
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Masses/LLQ mass :: LLQ mass
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Masses/LUQ mass :: LUQ mass
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Masses/RLQ mass :: RLQ mass
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Masses/RUQ mass :: RUQ mass
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Masses/mid-abdominal mass :: mid-abdominal mass
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Masses/no masses :: no masses
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Organomegaly/enlarged liver :: enlarged liver
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Organomegaly/enlarged liver and spleen :: enlarged liver and spleen
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Organomegaly/enlarged spleen :: enlarged spleen
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Organomegaly/no organomegaly :: no organomegaly
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/Location/LLQ :: LLQ
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/Location/LUQ :: LUQ
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/Location/RLQ :: RLQ
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/Location/RUQ :: RUQ
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/Location/diffuse :: diffuse
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/Location/mid-abdominal :: mid-abdominal
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/Location/other :: other
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/mild pain on palpation :: mild pain on palpation
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/moderate pain on palpation :: moderate pain on palpation
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/no pain on palpation :: no pain on palpation
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/options/with guarding :: with guarding
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/options/with rebound :: with rebound
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/options/with rigidity :: with rigidity
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Palpation/Pain on Palpation/severe pain on palpation :: severe pain on palpation
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Rectal exam/gross blood :: gross blood
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Rectal exam/mass palpated :: mass palpated
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Rectal exam/no masses :: no masses
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Rectal exam/occult blood negative :: occult blood negative
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Rectal exam/occult blood positive :: occult blood positive
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Wound/breaking down :: breaking down
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Wound/margins clean :: margins clean
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Wound/margins erythematous :: margins erythematous
+notes/Progress Notes/Physical Exam/Physical Exam/Gastrointestinal/Wound/purulent discharge :: purulent discharge
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Drains and Tubes/foley catheter :: foley catheter
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Drains and Tubes/nephrostomy tube - L :: nephrostomy tube - L
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Drains and Tubes/nephrostomy tube - R :: nephrostomy tube - R
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Drains and Tubes/suprapubic catheter :: suprapubic catheter
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Drains and Tubes/surgical drains :: surgical drains
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Drains and Tubes/ureteral stent(s) :: ureteral stent(s)
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/External Genitalia/normal/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Pelvic Exam/normal/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Genitourinary/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Ears/Hearing/absent bilaterally :: absent bilaterally
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Ears/Hearing/absent right :: absent right
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Ears/Hearing/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Ears/Hearing/reduced bilaterally :: reduced bilaterally
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Ears/Hearing/reduced left :: reduced left
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Ears/Hearing/reduced right :: reduced right
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Ears/normal/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Mouth/Pharynx/carious :: carious
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Mouth/Pharynx/edentulous - complete :: edentulous - complete
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Mouth/Pharynx/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Mouth/Pharynx/partial dentition :: partial dentition
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Ears/Nose/Mouth/Throat/Nose/normal/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Conjunctivae/discharge (L) :: discharge (L)
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Conjunctivae/discharge (R) :: discharge (R)
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Conjunctivae/edematous :: edematous
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Conjunctivae/icteric :: icteric
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Conjunctivae/injected :: injected
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Conjunctivae/non-icteric :: non-icteric
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Pupils/(reaction)/L does not react to light :: L does not react to light
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Pupils/(reaction)/R does not react to light :: R does not react to light
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Pupils/(reaction)/both do not react to light :: both do not react to light
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Pupils/(reaction)/react to light :: react to light
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Pupils/(symmetry)/equal :: equal
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Pupils/(symmetry)/unequal L>R :: unequal L>R
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Eyes/Pupils/(symmetry)/unequal R>L :: unequal R>L
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Neck/JVD/JVD absent :: JVD absent
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Neck/JVD/JVD present :: JVD present
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Neck/Mobility/limited ROM :: limited ROM
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Neck/Mobility/normal mobility :: normal mobility
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Neck/Mobility/rigid :: rigid
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Neck/Tenderness/non-tender :: non-tender
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Neck/Tenderness/tender :: tender
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Wound/breaking down :: breaking down
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Wound/margins clean :: margins clean
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Wound/margins erythematous :: margins erythematous
+notes/Progress Notes/Physical Exam/Physical Exam/Head and Neck/Wound/purulent discharge :: purulent discharge
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Cranial Nerves/abnormal :: abnormal
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Cranial Nerves/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/10 :: 10
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/11 :: 11
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/12 :: 12
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/13 :: 13
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/14 :: 14
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/15 :: 15
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/3 :: 3
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/4 :: 4
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/5 :: 5
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/6 :: 6
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/7 :: 7
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/8 :: 8
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/9 :: 9
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Eyes Score/1 :: 1
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Eyes Score/2 :: 2
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Eyes Score/3 :: 3
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Eyes Score/4 :: 4
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Affect/agitated at times :: agitated at times
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Affect/calm/appropriate :: calm/appropriate
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Affect/delusional :: delusional
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Affect/depressed :: depressed
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Affect/very agitated/combative :: very agitated/combative
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Affect/withdrawn :: withdrawn
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Level of Consciousness/comatose :: comatose
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Level of Consciousness/normal LOC :: normal LOC
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Level of Consciousness/obtunded :: obtunded
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Level of Consciousness/sedated :: sedated
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Level of Consciousness/somnolent :: somnolent
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Orientation/not oriented :: not oriented
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Orientation/oriented x3 :: oriented x3
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Orientation/partially oriented :: partially oriented
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Mental Status/Orientation/unable to assess orientation :: unable to assess orientation
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Motor Score/1 :: 1
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Motor Score/2 :: 2
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Motor Score/3 :: 3
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Motor Score/4 :: 4
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Motor Score/5 :: 5
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Motor Score/6 :: 6
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Score/estimated due to meds :: estimated due to meds
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Score/scored :: scored
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Score/unable to score due to meds :: unable to score due to meds
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Verbal Score/1 :: 1
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Verbal Score/2 :: 2
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Verbal Score/3 :: 3
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Verbal Score/4 :: 4
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/GCS/Verbal Score/5 :: 5
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Motor/decreased strength :: decreased strength
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Motor/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/diffusely :: diffusely
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/left & right ankle :: left & right ankle
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/left & right brachial :: left & right brachial
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/left & right patellar :: left & right patellar
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/left ankle :: left ankle
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/left brachial :: left brachial
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/left patellar :: left patellar
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/right ankle :: right ankle
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/right brachial :: right brachial
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/Abnormal Reflex/right patellar :: right patellar
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/absent :: absent
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/decreased :: decreased
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/increased :: increased
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Reflexes/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/asymmetric reduced sensation :: asymmetric reduced sensation
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/asymmetric reduced sensation/LLE :: LLE
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/asymmetric reduced sensation/LUE :: LUE
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/asymmetric reduced sensation/RLE :: RLE
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/asymmetric reduced sensation/RUE :: RUE
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/no response to pain :: no response to pain
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/normal :: normal
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/symmetric reduced sensation :: symmetric reduced sensation
+notes/Progress Notes/Physical Exam/Physical Exam/Neurologic/Sensation/withdraws to pain :: withdraws to pain
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Airway/intubated :: intubated
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Airway/laryngectomy stoma :: laryngectomy stoma
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Airway/not intubated :: not intubated
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Airway/tracheostomy :: tracheostomy
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Anterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Anterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Anterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Anterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Anterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Anterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Posterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Posterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Posterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Posterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Posterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/Location/Posterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/diffusely decreased breath sounds :: diffusely decreased breath sounds
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/focally decreased breath sounds :: focally decreased breath sounds
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Decreased Breath Sounds/no decreased breath sounds :: no decreased breath sounds
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Friction Rub/bilateral friction rubs :: bilateral friction rubs
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Friction Rub/left sided friction rub :: left sided friction rub
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Friction Rub/right sided friction rub :: right sided friction rub
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Anterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Anterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Anterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Anterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Anterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Anterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Posterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Posterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Posterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Posterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Posterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/Location/Posterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/bibasilar rales :: bibasilar rales
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/diffuse rales :: diffuse rales
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/focal rales :: focal rales
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rales/no rales :: no rales
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Anterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Anterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Anterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Anterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Anterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Anterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Posterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Posterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Posterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Posterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Posterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/Location/Posterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/No rhonchi :: No rhonchi
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/diffuse rhonchi :: diffuse rhonchi
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/focal rhonchi :: focal rhonchi
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Rhonchi/scattered rhonchi :: scattered rhonchi
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Anterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Anterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Anterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Anterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Anterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Anterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Posterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Posterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Posterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Posterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Posterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/Location/Posterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/diffuse wheezing :: diffuse wheezing
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/focal wheezing :: focal wheezing
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/Wheezes/no wheezing :: no wheezing
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/clear to auscultation/clear to auscultation :: clear to auscultation
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Auscultation/prolonged exhalation/prolonged exhalation :: prolonged exhalation
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Anterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Anterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Anterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Anterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Anterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Anterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Posterior Lung Field(s)/Left/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Posterior Lung Field(s)/Left/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Posterior Lung Field(s)/Left/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Posterior Lung Field(s)/Right/lower :: lower
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Posterior Lung Field(s)/Right/mid :: mid
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/Location/Posterior Lung Field(s)/Right/upper :: upper
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/bibasilar dullness to percussion :: bibasilar dullness to percussion
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/clear to percussion :: clear to percussion
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Percussion/focal dullness to percussion :: focal dullness to percussion
+notes/Progress Notes/Physical Exam/Physical Exam/Pulmonary/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Skin/Burn(s)/burn(s) :: burn(s)
+notes/Progress Notes/Physical Exam/Physical Exam/Skin/Cellulitis/cellulitis :: cellulitis
+notes/Progress Notes/Physical Exam/Physical Exam/Skin/Erythema/erythema :: erythema
+notes/Progress Notes/Physical Exam/Physical Exam/Skin/Lesions/lesions :: lesions
+notes/Progress Notes/Physical Exam/Physical Exam/Skin/Print "within normal limits"/within normal limits :: within normal limits
+notes/Progress Notes/Physical Exam/Physical Exam/Skin/Rash/rash :: rash
+notes/Progress Notes/Physical Exam/Physical Exam/Skin/Urticaria/urticaria :: urticaria
