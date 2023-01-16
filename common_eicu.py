@@ -39,12 +39,11 @@ KEY_INFUSION_OFFSET = 'infusionoffset'
 KEY_INFUSION_NAME = 'drugname'
 KEY_INFUSION_AMOUNT = 'drugamount'
 
-# TODO: find the following variables
+# -- variables to find --
 # APACHE-IV (ICU admission)
 # Plateau pressure (Daily, if ventilated)
 # Tidal volume (Daily, if ventilated)
-# RSBI (Daily, if ventilated)
-#     RSBI = respiration_rate / tidal_volume
+# RSBI (Daily, if ventilated; RSBI = respiration_rate / tidal_volume)
 # Respiratory SOFA (Daily)
 # Liver SOFA (Daily)
 # Renal SOFA (Daily)
