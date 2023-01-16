@@ -19,6 +19,7 @@ TREATMENT_PATH = eicu_path('treatment.csv.gz')
 DIAGNOSIS_PATH = eicu_path('diagnosis.csv.gz')
 PERIODIC_PATH = eicu_path('vitalPeriodic.csv.gz')
 APERIODIC_PATH = eicu_path('vitalAperiodic.csv.gz')
+INFUSION_PATH = eicu_path('infusionDrug.csv.gz')
 
 SEPSIS_KEYWORD = 'sepsis'
 KEY_IDENTITY = 'patientunitstayid'
@@ -34,6 +35,9 @@ KEY_LAB_NAME = 'labname'
 KEY_LAB_RESULT = 'labresult'
 KEY_PERIODIC_OFFSET = 'observationoffset'
 KEY_APERIODIC_OFFSET = 'observationoffset'
+KEY_INFUSION_OFFSET = 'infusionoffset'
+KEY_INFUSION_NAME = 'drugname'
+KEY_INFUSION_AMOUNT = 'drugamount'
 
 # TODO: find the following variables
 # APACHE-IV (ICU admission)
@@ -41,14 +45,10 @@ KEY_APERIODIC_OFFSET = 'observationoffset'
 # Tidal volume (Daily, if ventilated)
 # RSBI (Daily, if ventilated)
 #     RSBI = respiration_rate / tidal_volume
-# Hemoglobin (Daily)
 # Respiratory SOFA (Daily)
 # Liver SOFA (Daily)
 # Renal SOFA (Daily)
 # Cardiovascular SOFA (Daily)
-# RBC Transfusion (Sum of 24 hours)
-# FFP Transfusion (Sum of 24 hours)
-# PLT Transfusion (Sum of 24 hours)
 # Heparin days (Before assessment)
 # MV durations (Before assessment)
 
@@ -105,6 +105,7 @@ LAB_VARIABLES_FULL = [
     'glucose',  # glucose (mg/dL)
     'Base Excess',  # BE (Base Excess; mEq/L)
     'Hct',  # Hematocrit HCT (%)
+    'Methemoglobin',  # Hemoglobin? (%)
 ]
 
 # path -> alias
@@ -160,6 +161,17 @@ PERIODIC_COLUMNS_FULL = [
     'temperature',  # Temperature (in celsius)
 ]
 
+# in lower case
+INFUSION_KEYWORDS_COMPACT = [
+    # TODO:
+]
+INFUSION_KEYWORDS_FULL = [
+    *INFUSION_KEYWORDS_COMPACT,
+    'rbc',  # RBC Transfusion (Sum of 24 hours; ml/hr)
+    'ffp',  # FFP Transfusion (Sum of 24 hours; ml/hr)
+    'plt',  # PLT Transfusion (Sum of 24 hours; ml/hr)
+]
+
 # rename map (source -> alias)
 COLUMN_ALIASES = {
     **EXAM_ITEM_MAP_FULL,
@@ -172,6 +184,11 @@ COLUMN_ALIASES = {
     'heartrate': 'heart rate',
     'respiration': 'respiration rate',
     'sao2': 'SpO2',
+    'rbc': 'RBC transfusion',
+    'ffp': 'FFP transfusion',
+    'plt': 'PLT transfusion',
+    'ALT (SGPT)': 'ALT',
+    'AST (SGOT)': 'AST',
 }
 
 CATEGORICAL_COLUMNS_COMPACT = [
@@ -191,6 +208,9 @@ CUMULATIVE_COLUMNS_COMPACT = [
 CUMULATIVE_COLUMNS_FULL = [
     *CUMULATIVE_COLUMNS_COMPACT,
     'urine',
+    'RBC transfusion',
+    'FFP transfusion',
+    'PLT transfusion',
 ]
 
 # column_name -> indicator
