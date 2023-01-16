@@ -1,6 +1,7 @@
 __pycache__
 catboost_info
-/data/*_test.csv
-/data/*_test.csv.gz
-/data/*_filtered.csv
-/data/*_filtered.csv.gz
+data/*_test.csv
+data/*_test.csv.gz
+data/*_processed.csv
+data/*_processed.csv.gz
+data/sepsis_eicu.csv.gz
