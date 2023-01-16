@@ -1,0 +1,5 @@
+index,CatBoost,LightGB
+accuracy mean,0.9957,0.9954
+accuracy std,0.0007,0.0009
+AUC mean,0.9957,0.9960
+AUC std,0.0021,0.0016
