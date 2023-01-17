@@ -20,6 +20,7 @@ DIAGNOSIS_PATH = eicu_path('diagnosis.csv.gz')
 PERIODIC_PATH = eicu_path('vitalPeriodic.csv.gz')
 APERIODIC_PATH = eicu_path('vitalAperiodic.csv.gz')
 INFUSION_PATH = eicu_path('infusionDrug.csv.gz')
+APACHE_PATH = eicu_path('apachePatientResult.csv.gz')
 
 SEPSIS_KEYWORD = 'sepsis'
 KEY_IDENTITY = 'patientunitstayid'
@@ -38,6 +39,8 @@ KEY_APERIODIC_OFFSET = 'observationoffset'
 KEY_INFUSION_OFFSET = 'infusionoffset'
 KEY_INFUSION_NAME = 'drugname'
 KEY_INFUSION_AMOUNT = 'drugamount'
+KEY_APACHE_SCORE = 'apachescore'
+KEY_APACHE_VERSION = 'apacheversion'
 
 # -- variables to find --
 # APACHE-IV (ICU admission)
@@ -50,6 +53,8 @@ KEY_INFUSION_AMOUNT = 'drugamount'
 # Cardiovascular SOFA (Daily)
 # Heparin days (Before assessment)
 # MV durations (Before assessment)
+
+EXPECTED_APACHE_VERSION = 'IV'
 
 NON_TEMPORAL_COLUMNS_COMPACT = [
     # TODO:
@@ -188,6 +193,7 @@ COLUMN_ALIASES = {
     'plt': 'PLT transfusion',
     'ALT (SGPT)': 'ALT',
     'AST (SGOT)': 'AST',
+    'apachescore': 'Apache-IV',
 }
 
 CATEGORICAL_COLUMNS_COMPACT = [
