@@ -55,22 +55,14 @@ KEY_APACHE_VERSION = 'apacheversion'
 
 EXPECTED_APACHE_VERSION = 'IV'
 
-NON_TEMPORAL_COLUMNS_COMPACT = [
-    # TODO:
-]
-NON_TEMPORAL_COLUMNS_FULL = [
-    *NON_TEMPORAL_COLUMNS_COMPACT,
+NON_TEMPORAL_COLUMNS = [
     'age',
     'gender',
     'ethnicity',
     'admissionheight',  # height
 ]
 
-LAB_VARIABLES_COMPACT = [
-    # TODO:
-]
-LAB_VARIABLES_FULL = [
-    *LAB_VARIABLES_COMPACT,
+LAB_VARIABLES = [
     'creatinine',  # Creatinine (mg/dL)
     'platelets x 1000',  # Platelet (K/mcL)
     'PT - INR',  # INR (international normalized ratio; ratio)
@@ -112,11 +104,7 @@ LAB_VARIABLES_FULL = [
 ]
 
 # path -> alias
-EXAM_ITEM_MAP_COMPACT = {
-    # TODO:
-}
-EXAM_ITEM_MAP_FULL = {
-    **EXAM_ITEM_MAP_COMPACT,
+EXAM_ITEM_MAP = {
     # Weight (kg)
     'notes/Progress Notes/Physical Exam/Physical Exam'
     '/Constitutional/Weight and I&O/Weight (kg)/Current': 'weight',
@@ -132,32 +120,19 @@ EXAM_ITEM_MAP_FULL = {
     '/Constitutional/Vital Sign and Physiological Data/PEEP/PEEP': 'PEEP',
 }
 
-EXAM_ITEMS_COMPACT = list(EXAM_ITEM_MAP_COMPACT.keys())
-EXAM_ITEMS_FULL = list(EXAM_ITEM_MAP_FULL.keys())
+EXAM_ITEMS = list(EXAM_ITEM_MAP.keys())
 
 # in lower case
-TREATMENT_KEYWORDS_COMPACT = [
-    # TODO:
-]
-TREATMENT_KEYWORDS_FULL = [
-    *TREATMENT_KEYWORDS_COMPACT,
+TREATMENT_KEYWORDS = [
     'vasopressor',  # Vasopressor use
     'heparin',  # Heparin use
 ]
 
-APERIODIC_COLUMNS_COMPACT = [
-    # TODO:
-]
-APERIODIC_COLUMNS_FULL = [
-    *APERIODIC_COLUMNS_COMPACT,
+APERIODIC_COLUMNS = [
     'noninvasivemean',  # Non-invasive mean blood pressure (mmHg?)
 ]
 
-PERIODIC_COLUMNS_COMPACT = [
-    # TODO:
-]
-PERIODIC_COLUMNS_FULL = [
-    *PERIODIC_COLUMNS_COMPACT,
+PERIODIC_COLUMNS = [
     'heartrate',  # Heart rate (per minute?)
     'respiration',  # Respiratory rate (per minute?)
     'sao2',  # SpO2 (https://eicu-crd.mit.edu/eicutables/vitalperiodic/)
@@ -165,11 +140,7 @@ PERIODIC_COLUMNS_FULL = [
 ]
 
 # in lower case
-INFUSION_KEYWORDS_COMPACT = [
-    # TODO:
-]
-INFUSION_KEYWORDS_FULL = [
-    *INFUSION_KEYWORDS_COMPACT,
+INFUSION_KEYWORDS = [
     'rbc',  # RBC Transfusion (Sum of 24 hours; ml/hr)
     'ffp',  # FFP Transfusion (Sum of 24 hours; ml/hr)
     'plt',  # PLT Transfusion (Sum of 24 hours; ml/hr)
@@ -177,7 +148,7 @@ INFUSION_KEYWORDS_FULL = [
 
 # rename map (source -> alias)
 COLUMN_ALIASES = {
-    **EXAM_ITEM_MAP_FULL,
+    **EXAM_ITEM_MAP,
     'admissionheight': 'height',
     'platelets x 1000': 'platelet',
     'PT - INR': 'INR',
@@ -195,22 +166,14 @@ COLUMN_ALIASES = {
     'apachescore': 'Apache-IV',
 }
 
-CATEGORICAL_COLUMNS_COMPACT = [
-    # TODO:
-]
-CATEGORICAL_COLUMNS_FULL = [
-    *CATEGORICAL_COLUMNS_COMPACT,
+CATEGORICAL_COLUMNS = [
     'gender',
     'ethnicity',
     'vasopressor',
     'heparin',
 ]
 
-CUMULATIVE_COLUMNS_COMPACT = [
-    # TODO:
-]
-CUMULATIVE_COLUMNS_FULL = [
-    *CUMULATIVE_COLUMNS_COMPACT,
+CUMULATIVE_COLUMNS = [
     'urine',
     'RBC transfusion',
     'FFP transfusion',
@@ -226,12 +189,8 @@ PICS_CONDITIONS = {
     'prealbumin': lambda v: v < 10,
 }
 
-CONDITION_ONLY_COLUMNS_FULL = [
+CONDITION_ONLY_COLUMNS = [
     # None
-]
-CONDITION_ONLY_COLUMNS_COMPACT = [
-    *CONDITION_ONLY_COLUMNS_FULL,
-    # TODO:
 ]
 
 
