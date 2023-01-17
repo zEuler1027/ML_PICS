@@ -43,7 +43,6 @@ KEY_APACHE_SCORE = 'apachescore'
 KEY_APACHE_VERSION = 'apacheversion'
 
 # -- variables to find --
-# APACHE-IV (ICU admission)
 # Plateau pressure (Daily, if ventilated)
 # Tidal volume (Daily, if ventilated)
 # RSBI (Daily, if ventilated; RSBI = respiration_rate / tidal_volume)
