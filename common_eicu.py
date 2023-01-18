@@ -141,9 +141,11 @@ PERIODIC_COLUMNS = [
 
 # in lower case
 INFUSION_KEYWORDS = [
-    'rbc',  # RBC Transfusion (Sum of 24 hours; ml/hr)
-    'ffp',  # FFP Transfusion (Sum of 24 hours; ml/hr)
-    'plt',  # PLT Transfusion (Sum of 24 hours; ml/hr)
+    # The following items are omitted
+    # because they are all zero in our dataset.
+    # 'rbc',  # RBC Transfusion (Sum of 24 hours; ml/hr)
+    # 'ffp',  # FFP Transfusion (Sum of 24 hours; ml/hr)
+    # 'plt',  # PLT Transfusion (Sum of 24 hours; ml/hr)
 ]
 
 # rename map (source -> alias)
