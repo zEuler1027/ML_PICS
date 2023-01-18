@@ -1,7 +1,8 @@
 import pandas as pd
 import numpy as np
 from common_eicu import CATEGORICAL_COLUMNS
-from sklearn.model_selection import StratifiedGroupKFold
+from sklearn.model_selection import cross_validate, \
+    StratifiedGroupKFold
 
 SEED = 1011
 SCORING = ['accuracy', 'roc_auc']
@@ -26,3 +27,44 @@ def get_full_data():
         df_data[column_name] = df_data[column_name].astype('category')
 
     return df_data
+
+
+def test_model(
+    model,
+    X,
+    y,
+    groups,
+    *,
+    return_result=False,
+    n_jobs=None,
+):
+
+    scores = cross_validate(
+        model,
+        X,
+        y,
+        cv=cv,
+        scoring=SCORING,
+        groups=groups,
+    )
+
+    scores_accuracy = scores['test_accuracy']
+    accuracy_mean = scores_accuracy.mean()
+    accuracy_std = scores_accuracy.std()
+    scores_auc = scores['test_roc_auc']
+    auc_mean = scores_auc.mean()
+    auc_std = scores_auc.std()
+
+    print(f'>>> CV Result')
+    print(f'accuracy_mean: {accuracy_mean:.4f}')
+    print(f'accuracy_std:  {accuracy_std:.4f}')
+    print(f'auc_mean:      {auc_mean:.4f}')
+    print(f'auc_std:       {auc_std:.4f}')
+
+    if return_result:
+        return {
+            'accuracy_mean': accuracy_mean,
+            'accuracy_std': accuracy_std,
+            'auc_mean': auc_mean,
+            'auc_std': auc_std,
+        }
