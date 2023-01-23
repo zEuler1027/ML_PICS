@@ -60,8 +60,9 @@ Hct、creatinine、pH、calcium、WBC、BMI、AST、platelet、MAP。
 | `learning_rate` | 0.0282  |
 
 优化后 Compact Model 的表现：
-    - Accuracy: 0.9612 (std: 0.0066)
-    - AUC: 0.9069 (std: 0.0142)
+
+- Accuracy: 0.9612 (std: 0.0066)
+- AUC: 0.9069 (std: 0.0142)
 
 至此，得到优化后的 Compact Model。
 
