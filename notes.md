@@ -52,12 +52,12 @@ Hct、creatinine、pH、calcium、WBC、BMI、AST、platelet、MAP。
 使用以上选出的自变量训练 Compact Model，并用 Bayesian Optimization 优化超参数。
 目前最优参数为：
 
-| Parameter Name | Value   |
-|:---------------|:--------|
-| depth          | 6       |
-| iterations     | 350     |
-| l2_leaf_reg    | 17.6845 |
-| learning_rate  | 0.0282  |
+| Parameter Name  | Value   |
+|:----------------|:--------|
+| `depth`         | 6       |
+| `iterations`    | 350     |
+| `l2_leaf_reg`   | 17.6845 |
+| `learning_rate` | 0.0282  |
 
 优化后 Compact Model 的表现：
     - Accuracy: 0.9612 (std: 0.0066)
