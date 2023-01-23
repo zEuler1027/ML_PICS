@@ -1,0 +1,3 @@
+[submodule "sepsis-pics-tool"]
+	path = sepsis-pics-tool
+	url = git@github:huang2002/sepsis-pics-tool.git
