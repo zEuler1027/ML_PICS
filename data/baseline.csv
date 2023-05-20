@@ -1,4 +1,4 @@
-index,positive,negative
+baseline_index,positive,negative
 mode(gender),Male,Male
 mean(age),61.27884117951371,64.02264573526057
 std(age),15.919407385009908,16.030632733003866
