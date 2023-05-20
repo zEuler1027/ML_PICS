@@ -1,16 +1,12 @@
 __pycache__
 catboost_info
 
-data/*_test.csv
-data/*_test.csv.gz
-data/*_processed.csv
-data/*_processed.csv.gz
-data/sepsis_eicu.csv.gz
+/data/*_test.csv
+/data/*_test.csv.gz
+/data/*_processed.csv
+/data/*_processed.csv.gz
+/data/sepsis_eicu.csv.gz
 
-paper/sepsis-pics.aux
-paper/sepsis-pics.fdb_latexmk
-paper/sepsis-pics.fls
-paper/sepsis-pics.synctex.gz
-paper/sepsis-pics.log
-paper/sepsis-pics.toc
-paper/sepsis-pics.idx
+/paper/*
+!/paper/*.tex
+!/paper/*.pdf
