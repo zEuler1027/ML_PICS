@@ -15,12 +15,12 @@ cv = StratifiedGroupKFold(
 )
 
 
-def get_full_data():
+def get_full_data(inf_replacement=9999):
 
     df_data = pd.read_csv('./data/data_eicu_full.csv.gz')
 
     # clamp infinite values
-    df_data.replace(np.inf, 9999, inplace=True)
+    df_data.replace(np.inf, inf_replacement, inplace=True)
 
     # set categorical columns
     for column_name in CATEGORICAL_COLUMNS:
