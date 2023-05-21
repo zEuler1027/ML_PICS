@@ -6,6 +6,7 @@ catboost_info
 /data/*_processed.csv
 /data/*_processed.csv.gz
 /data/sepsis_eicu.csv.gz
+/data/catalogue*.json
 
 /paper/*
 !/paper/*.tex
