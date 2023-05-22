@@ -7,7 +7,7 @@
 从eICU数据库中共提取出$100,308$条数据，包含$17,729$名不同的脓毒症患者。%
 其中，$3,866\,(3.85\%)$条数据为正例，$96,442\,(96.15\%)$条数据为反例。
 
-经过比较，正例拥有更长的住院天数\MyCompare{21.067}{10.852}{0.001}，%
+经过比较，正例拥有更长的ICU入住天数\MyCompare{21.067}{10.852}{0.001}，%
 更少的血浆蛋白\MyCompare{2.109}{2.520}{0.001}，%
 更少的淋巴细胞数目\MyCompare{9.931}{12.473}{0.001}，%
 更高的心率\MyCompare{93.337}{88.458}{0.001}，%
@@ -21,9 +21,58 @@
 
 \subsection{模型比较}
 
-TODO:
+\begin{table}[htbp]
+    \centering
+    \scriptsize
+    \begin{threeparttable}
+        \begin{tabular}{clcc}
+            \toprule
+            排名 & 模型名称                         & 平均准确率               & 平均AUC\tnote{1}      \\
+            \midrule
+            1  & CatBoost                     & $0.996 (\pm 0.001)$ & $0.996 (\pm 0.001)$ \\
+            2  & Light Gradient Boosting      & $0.995 (\pm 0.001)$ & $0.996 (\pm 0.001)$ \\
+            3  & Extreme Gradient Boosting    & $0.995 (\pm 0.001)$ & $0.994 (\pm 0.002)$ \\
+            4  & Hist Gradient Boosting       & $0.994 (\pm 0.002)$ & $0.996 (\pm 0.002)$ \\
+            5  & Ada Boost                    & $0.993 (\pm 0.002)$ & $0.995 (\pm 0.002)$ \\
+            6  & Decision Tree                & $0.989 (\pm 0.002)$ & $0.949 (\pm 0.013)$ \\
+            7  & Multi-Layer Perceptron       & $0.982 (\pm 0.004)$ & $0.975 (\pm 0.008)$ \\
+            8  & SVM (RBF Kernel)             & $0.973 (\pm 0.003)$ & $0.957 (\pm 0.011)$ \\
+            9  & Logistic                     & $0.966 (\pm 0.007)$ & $0.956 (\pm 0.012)$ \\
+            10 & Extra Trees                  & $0.961 (\pm 0.006)$ & $0.977 (\pm 0.006)$ \\
+            11 & Naive Bayes                  & $0.961 (\pm 0.006)$ & $0.689 (\pm 0.034)$ \\
+            12 & Ridge                        & $0.961 (\pm 0.007)$ & $0.952 (\pm 0.013)$ \\
+            13 & Linear Discriminant Analysis & $0.961 (\pm 0.010)$ & $0.952 (\pm 0.013)$ \\
+            14 & K-Nearest Neighbours         & $0.951 (\pm 0.006)$ & $0.544 (\pm 0.025)$ \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+            \tiny
+            \item[1] AUC：Area Under Curve，接受者操作特性曲线下与坐标轴围成的面积。
+        \end{tablenotes}
+    \end{threeparttable}
+    \caption{$14$种模型的交叉验证结果比较（按平均准确率排序）}
+    \label{table:model-comparison}
+\end{table}
+
+用提取出的数据训练预测模型，各种模型的交叉验证结果如表\ref{table:model-comparison}所示。%
+Logistic回归表现良好（平均准确率：$0.966$，平均AUC：$0.956$），%
+而集成学习方法拥有更高的平均准确率和平均AUC。%
+其中，CatBoost的预测结果最好（平均准确率：$0.996$，平均AUC：$0.996$），%
+故选择CatBoost进入下一步。
 
 \subsection{完整模型与紧凑模型}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.9\linewidth]{../img/eicu_full_shap_beeswarm_20.png}
+    \caption{完整模型中各变量的平均SHAP值比较}
+    \label{figure:full-shap}
+\end{figure}
+
+根据预测结果比较，选择含$57$个输入变量的CatBoost模型为完整模型。%
+计算完整模型中各变量的平均SHAP值，结果如图\ref{figure:full-shap}所示。%
+此摘要图展示了各个变量对预测结果的影响情况分布。%
+例如，ICU入住天数（offset）对结果影响明显，且ICU入住天数越长，发生ICU综合症的概率越大。
 
 TODO:
 
