@@ -4,10 +4,10 @@
 
 \subsection{基准特征}
 
-从eICU数据库中共提取出$100,308$条数据，包含$17,729$名不同的脓毒症患者。%
+从eICU数据库中提取出$100,308$条数据，包含$17,729$名不同的脓毒症患者。%
 其中，$3,866\,(3.85\%)$条数据为正例，$96,442\,(96.15\%)$条数据为反例。
 
-经过比较，正例拥有更长的ICU入住天数\MyCompare{21.067}{10.852}{0.001}，%
+经过比较，正例数据拥有更长的ICU入住天数\MyCompare{21.067}{10.852}{0.001}，%
 更少的血浆蛋白\MyCompare{2.109}{2.520}{0.001}，%
 更少的淋巴细胞数目\MyCompare{9.931}{12.473}{0.001}，%
 更高的心率\MyCompare{93.337}{88.458}{0.001}，%
@@ -74,16 +74,45 @@ Logistic回归表现良好（平均准确率：$0.966$，平均AUC：$0.956$）�
 此摘要图展示了各个变量对预测结果的影响情况分布。%
 例如，ICU入住天数（offset）对结果影响明显，且ICU入住天数越长，发生ICU综合症的概率越大。
 
-TODO:
+根据变量的平均SHAP值大小和数据获取的难易程度，选择了$15$个变量作为输入，%
+建立更加易于使用的紧凑模型。使用默认超参数的紧凑模型平均AUC为$90.219\%$。%
+通过贝叶斯优化超参数后，紧凑模型的平均AUC达到了$90.682\%$，同时平均准确率为$96.120\%$。%
+虽然预测结果的得分略低于完整模型，但是紧凑模型明显在临床上更加可行、更加易用。
 
 \subsection{性能分析}
 
-TODO:
+TODO: sensitivity analysis
 
 \subsection{模型解释}
 
-TODO:
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{../img/eicu_compact_shap_force_neg.png}
+    \vspace{-4em}
+    \caption{个例(A)中主要变量的SHAP值}
+    \label{figure:shap-neg}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=\linewidth]{../img/eicu_compact_shap_force_pos.png}
+    \vspace{-4em}
+    \caption{个例(B)中主要变量的SHAP值}
+    \label{figure:shap-pos}
+\end{figure}
+
+图\ref{figure:full-shap}从整体上展示了各个变量对于预测结果的影响情况。%
+而图\ref{figure:shap-neg}和图\ref{figure:shap-pos}展示了两个个例中主要变量的SHAP值。%
+图中红色条和蓝色条分别表示危险因素和安全因素，它们共同作用决定了最终的结果。%
+如图\ref{figure:shap-neg}，在个例(A)中，虽然患者的平均动脉压偏低，但是其ICU入住天数很短、%
+血浆蛋白较多、pH值也良好，所以模型准确预测了患者次日无ICU综合症风险。%
+又如图\ref{figure:shap-pos}，在个例(B)中，虽然患者的血浆蛋白较多，%
+但是其ICU入住天数较长、身体质量指数（BMI）偏低，所以模型准确预测了患者次日的ICU综合症。
 
 \subsection{H5预测工具}
 
-TODO:
+\newcommand\PredictionToolURL{http://1.15.185.22/sepsis-pics-tool/}
+
+为了方便临床上对上述紧凑模型的测试，开发了一款预测脓毒症患者诱发ICU综合症的H5应用。%
+只需在表单中输入指标数值，然后点击“提交”，就可以获得紧凑模型对患者次日发生ICU综合症概率的预测。%
+目前部署应用在此网址上：\url{\PredictionToolURL}。
