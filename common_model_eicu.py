@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from common_eicu import CATEGORICAL_COLUMNS
+from common_eicu import CATEGORICAL_COLUMNS, KEY_OFFSET
 from sklearn.model_selection import cross_validate, \
     StratifiedGroupKFold
 
@@ -12,6 +12,31 @@ cv = StratifiedGroupKFold(
     n_splits=CV_FOLDS,
     shuffle=True,
     random_state=SEED,
+)
+
+COMPACT_COLUMNS = [
+    KEY_OFFSET,
+    'albumin',
+    'lymph',
+    'heart rate',
+    'respiration rate',
+    'total protein',
+    'Hct',
+    'creatinine',
+    'pH',
+    'calcium',
+    'WBC',
+    'BMI',
+    'AST',
+    'platelet',
+    'MAP',
+]
+
+CATEGORICAL_COLUMNS_COMPACT = list(
+    filter(
+        lambda col: col in COMPACT_COLUMNS,
+        CATEGORICAL_COLUMNS,
+    )
 )
 
 
