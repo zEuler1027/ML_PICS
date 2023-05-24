@@ -21,7 +21,7 @@
 
 \subsection{模型比较}
 
-\begin{table}[htbp]
+\begin{table}[htb]
     \centering
     \scriptsize
     \begin{threeparttable}
@@ -62,7 +62,7 @@ Logistic回归表现良好（平均准确率：$0.966$，平均AUC：$0.956$）�
 
 \subsection{完整模型与紧凑模型}
 
-\begin{figure}[htbp]
+\begin{figure}[htb]
     \centering
     \includegraphics[width=0.9\linewidth]{../img/eicu_full_shap_beeswarm_20.png}
     \caption{完整模型中各变量的平均SHAP值比较}
@@ -81,11 +81,19 @@ Logistic回归表现良好（平均准确率：$0.966$，平均AUC：$0.956$）�
 
 \subsection{性能分析}
 
-TODO: sensitivity analysis
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=\linewidth]{../img/eicu_performance.png}
+    \caption{模型性能分析}
+    \label{figure:model-performance}
+\end{figure}
+
+如图\ref{figure:model-performance}所示，完整模型和紧凑模型在各种指标的不同范围下都表现良好。%
+当某个指标出现明显的异常值时，模型可以非常敏锐地察觉到并给出十分准确的预测结果。
 
 \subsection{模型解释}
 
-\begin{figure}[htbp]
+\begin{figure}[htb]
     \centering
     \includegraphics[width=\linewidth]{../img/eicu_compact_shap_force_neg.png}
     \vspace{-4em}
@@ -93,7 +101,7 @@ TODO: sensitivity analysis
     \label{figure:shap-neg}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[htb]
     \centering
     \includegraphics[width=\linewidth]{../img/eicu_compact_shap_force_pos.png}
     \vspace{-4em}
@@ -101,7 +109,8 @@ TODO: sensitivity analysis
     \label{figure:shap-pos}
 \end{figure}
 
-图\ref{figure:full-shap}从整体上展示了各个变量对于预测结果的影响情况。%
+图\ref{figure:full-shap}从整体上展示了各个变量对于预测结果的影响情况，%
+同时也展现了模型对输入变量变化的灵敏性。%
 而图\ref{figure:shap-neg}和图\ref{figure:shap-pos}展示了两个个例中主要变量的SHAP值。%
 图中红色条和蓝色条分别表示危险因素和安全因素，它们共同作用决定了最终的结果。%
 如图\ref{figure:shap-neg}，在个例(A)中，虽然患者的平均动脉压偏低，但是其ICU入住天数很短、%
@@ -115,4 +124,4 @@ TODO: sensitivity analysis
 
 为了方便临床上对上述紧凑模型的测试，开发了一款预测脓毒症患者诱发ICU综合症的H5应用。%
 只需在表单中输入指标数值，然后点击“提交”，就可以获得紧凑模型对患者次日发生ICU综合症概率的预测。%
-目前部署应用在此网址上：\url{\PredictionToolURL}。
+目前应用已部署在此网址上：\url{\PredictionToolURL}。
