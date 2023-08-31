@@ -11,3 +11,4 @@ catboost_info
 /paper/*
 !/paper/*.tex
 !/paper/*.pdf
+!/paper/*.docx
